@@ -65,7 +65,9 @@ CAPTCHA_MARKERS = [
 
 
 def _sleep_with_jitter() -> None:
-    base = float(os.environ.get("SCRAPER_DELAY_SECONDS", "3"))
+    # `or "3"` (not `.get(key, "3")`) because GitHub Actions injects unset
+    # optional secrets as an empty-string env var, not an absent one.
+    base = float(os.environ.get("SCRAPER_DELAY_SECONDS") or "3")
     time.sleep(base + random.uniform(0, base))
 
 
