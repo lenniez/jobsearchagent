@@ -1,0 +1,49 @@
+name: Daily Job Digest
+
+on:
+  schedule:
+    # 9am ET = 13:00 UTC (EST) / 14:00 UTC (EDT). Cron doesn't support DST,
+    # so this runs at 9am EDT / 8am EST — close enough given daily cadence.
+    - cron: "0 13 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  run-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Playwright browser
+        run: playwright install --with-deps chromium
+
+      - name: Run digest pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_FROM: ${{ secrets.RESEND_FROM }}
+          RESEND_TO: ${{ secrets.RESEND_TO }}
+          SCRAPER_PROXY_URL: ${{ secrets.SCRAPER_PROXY_URL }}
+          SCRAPER_DELAY_SECONDS: ${{ secrets.SCRAPER_DELAY_SECONDS }}
+        run: python src/main.py
+
+      - name: Commit updated dedupe DB and ATS map
+        run: |
+          git config user.name "job-digest-bot"
+          git config user.email "actions@github.com"
+          git add data/seen_jobs.db config/ats_map.yaml
+          git diff --cached --quiet || git commit -m "chore: update dedupe DB and ATS map [skip ci]"
+          git push

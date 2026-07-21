@@ -1,0 +1,1084 @@
+resolved:
+  abridge:
+    ats_type: ashby
+    display_name: Abridge
+    resolved_at: '2026-07-21'
+    slug: abridge
+    source: auto
+  airbyte:
+    ats_type: ashby
+    display_name: Airbyte
+    resolved_at: '2026-07-21'
+    slug: airbyte
+    source: auto
+  airtable:
+    ats_type: greenhouse
+    display_name: Airtable
+    resolved_at: '2026-07-21'
+    slug: airtable
+    source: auto
+  akido labs:
+    ats_type: greenhouse
+    display_name: Akido Labs
+    resolved_at: '2026-07-21'
+    slug: akidolabs
+    source: auto
+  algolia:
+    ats_type: greenhouse
+    display_name: Algolia
+    resolved_at: '2026-07-21'
+    slug: algolia
+    source: auto
+  alphasense:
+    ats_type: greenhouse
+    display_name: AlphaSense
+    resolved_at: '2026-07-21'
+    slug: alphasense
+    source: auto
+  ambience healthcare:
+    ats_type: ashby
+    display_name: Ambience Healthcare
+    resolved_at: '2026-07-21'
+    slug: ambiencehealthcare
+    source: auto
+  amplitude:
+    ats_type: greenhouse
+    display_name: Amplitude
+    resolved_at: '2026-07-21'
+    slug: amplitude
+    source: auto
+  anthropic:
+    ats_type: greenhouse
+    display_name: Anthropic
+    resolved_at: '2026-07-21'
+    slug: anthropic
+    source: auto
+  apollo:
+    ats_type: greenhouse
+    display_name: Apollo
+    resolved_at: '2026-07-21'
+    slug: apollo
+    source: auto
+  apollo.io:
+    ats_type: greenhouse
+    display_name: Apollo.io
+    resolved_at: '2026-07-21'
+    slug: apolloio
+    source: auto
+  ashby:
+    ats_type: ashby
+    display_name: Ashby
+    resolved_at: '2026-07-21'
+    slug: ashby
+    source: auto
+  assemblyai:
+    ats_type: greenhouse
+    display_name: AssemblyAI
+    resolved_at: '2026-07-21'
+    slug: assemblyai
+    source: auto
+  atlan:
+    ats_type: ashby
+    display_name: Atlan
+    resolved_at: '2026-07-21'
+    slug: atlan
+    source: auto
+  atlassian:
+    ats_type: lever
+    display_name: Atlassian
+    resolved_at: '2026-07-21'
+    slug: atlassian
+    source: auto
+  atomic industries:
+    ats_type: ashby
+    display_name: Atomic Industries
+    resolved_at: '2026-07-21'
+    slug: atomicindustries
+    source: auto
+  attentive:
+    ats_type: greenhouse
+    display_name: Attentive
+    resolved_at: '2026-07-21'
+    slug: attentive
+    source: auto
+  benchling:
+    ats_type: ashby
+    display_name: Benchling
+    resolved_at: '2026-07-21'
+    slug: benchling
+    source: auto
+  bird:
+    ats_type: greenhouse
+    display_name: Bird
+    resolved_at: '2026-07-21'
+    slug: bird
+    source: auto
+  bitmovin:
+    ats_type: greenhouse
+    display_name: Bitmovin
+    resolved_at: '2026-07-21'
+    slug: bitmovin
+    source: auto
+  braze:
+    ats_type: greenhouse
+    display_name: Braze
+    resolved_at: '2026-07-21'
+    slug: braze
+    source: auto
+  calendly:
+    ats_type: greenhouse
+    display_name: Calendly
+    resolved_at: '2026-07-21'
+    slug: calendly
+    source: auto
+  cambio:
+    ats_type: ashby
+    display_name: Cambio
+    resolved_at: '2026-07-21'
+    slug: cambio
+    source: auto
+  checkr:
+    ats_type: greenhouse
+    display_name: Checkr
+    resolved_at: '2026-07-21'
+    slug: checkr
+    source: auto
+  clari:
+    ats_type: lever
+    display_name: Clari
+    resolved_at: '2026-07-21'
+    slug: clari
+    source: auto
+  cognition:
+    ats_type: ashby
+    display_name: Cognition
+    resolved_at: '2026-07-21'
+    slug: cognition
+    source: auto
+  cohere:
+    ats_type: ashby
+    display_name: Cohere
+    resolved_at: '2026-07-21'
+    slug: cohere
+    source: auto
+  common room:
+    ats_type: ashby
+    display_name: Common Room
+    resolved_at: '2026-07-21'
+    slug: commonroom
+    source: auto
+  community phone company:
+    ats_type: greenhouse
+    display_name: Community Phone Company
+    resolved_at: '2026-07-21'
+    slug: community
+    source: auto
+  convene:
+    ats_type: greenhouse
+    display_name: Convene
+    resolved_at: '2026-07-21'
+    slug: convene
+    source: auto
+  conveo:
+    ats_type: ashby
+    display_name: Conveo
+    resolved_at: '2026-07-21'
+    slug: conveo
+    source: auto
+  coursera:
+    ats_type: greenhouse
+    display_name: Coursera
+    resolved_at: '2026-07-21'
+    slug: coursera
+    source: auto
+  cribl:
+    ats_type: greenhouse
+    display_name: Cribl
+    resolved_at: '2026-07-21'
+    slug: cribl
+    source: auto
+  culture amp:
+    ats_type: greenhouse
+    display_name: Culture Amp
+    resolved_at: '2026-07-21'
+    slug: cultureamp
+    source: auto
+  customer.io:
+    ats_type: greenhouse
+    display_name: Customer.io
+    resolved_at: '2026-07-21'
+    slug: customerio
+    source: auto
+  databricks:
+    ats_type: greenhouse
+    display_name: Databricks
+    resolved_at: '2026-07-21'
+    slug: databricks
+    source: auto
+  datadog:
+    ats_type: greenhouse
+    display_name: Datadog
+    resolved_at: '2026-07-21'
+    slug: datadog
+    source: auto
+  decagon:
+    ats_type: ashby
+    display_name: Decagon
+    resolved_at: '2026-07-21'
+    slug: decagon
+    source: auto
+  deel:
+    ats_type: ashby
+    display_name: Deel
+    resolved_at: '2026-07-21'
+    slug: deel
+    source: auto
+  deepgram:
+    ats_type: ashby
+    display_name: Deepgram
+    resolved_at: '2026-07-21'
+    slug: deepgram
+    source: auto
+  discord:
+    ats_type: greenhouse
+    display_name: Discord
+    resolved_at: '2026-07-21'
+    slug: discord
+    source: auto
+  domu technology inc.:
+    ats_type: ashby
+    display_name: Domu Technology Inc.
+    resolved_at: '2026-07-21'
+    slug: domu
+    source: auto
+  dropbox:
+    ats_type: greenhouse
+    display_name: Dropbox
+    resolved_at: '2026-07-21'
+    slug: dropbox
+    source: auto
+  dscout:
+    ats_type: greenhouse
+    display_name: Dscout
+    resolved_at: '2026-07-21'
+    slug: dscout
+    source: auto
+  duolingo:
+    ats_type: greenhouse
+    display_name: Duolingo
+    resolved_at: '2026-07-21'
+    slug: duolingo
+    source: auto
+  elevenlabs:
+    ats_type: ashby
+    display_name: ElevenLabs
+    resolved_at: '2026-07-21'
+    slug: elevenlabs
+    source: auto
+  embrace:
+    ats_type: greenhouse
+    display_name: Embrace
+    resolved_at: '2026-07-21'
+    slug: embrace
+    source: auto
+  faire:
+    ats_type: greenhouse
+    display_name: Faire
+    resolved_at: '2026-07-21'
+    slug: faire
+    source: auto
+  figma:
+    ats_type: greenhouse
+    display_name: Figma
+    resolved_at: '2026-07-21'
+    slug: figma
+    source: auto
+  fivetran:
+    ats_type: greenhouse
+    display_name: Fivetran
+    resolved_at: '2026-07-21'
+    slug: fivetran
+    source: auto
+  flatiron health:
+    ats_type: greenhouse
+    display_name: Flatiron Health
+    resolved_at: '2026-07-21'
+    slug: flatironhealth
+    source: auto
+  flexport:
+    ats_type: greenhouse
+    display_name: Flexport
+    resolved_at: '2026-07-21'
+    slug: flexport
+    source: auto
+  flock safety:
+    ats_type: ashby
+    display_name: Flock Safety
+    resolved_at: '2026-07-21'
+    slug: flock
+    source: auto
+  flux auto:
+    ats_type: ashby
+    display_name: Flux Auto
+    resolved_at: '2026-07-21'
+    slug: flux
+    source: auto
+  focal systems:
+    ats_type: greenhouse
+    display_name: Focal Systems
+    resolved_at: '2026-07-21'
+    slug: focalsystems
+    source: auto
+  gecko robotics:
+    ats_type: ashby
+    display_name: Gecko Robotics
+    resolved_at: '2026-07-21'
+    slug: gecko-robotics
+    source: auto
+  gitlab:
+    ats_type: greenhouse
+    display_name: GitLab
+    resolved_at: '2026-07-21'
+    slug: gitlab
+    source: auto
+  govdash:
+    ats_type: ashby
+    display_name: GovDash
+    resolved_at: '2026-07-21'
+    slug: govdash
+    source: auto
+  grafana labs:
+    ats_type: greenhouse
+    display_name: Grafana Labs
+    resolved_at: '2026-07-21'
+    slug: grafanalabs
+    source: auto
+  greenhouse:
+    ats_type: greenhouse
+    display_name: Greenhouse
+    resolved_at: '2026-07-21'
+    slug: greenhouse
+    source: auto
+  gusto:
+    ats_type: greenhouse
+    display_name: Gusto
+    resolved_at: '2026-07-21'
+    slug: gusto
+    source: auto
+  hackerrank:
+    ats_type: greenhouse
+    display_name: HackerRank
+    resolved_at: '2026-07-21'
+    slug: hackerrank
+    source: auto
+  harvey:
+    ats_type: ashby
+    display_name: Harvey
+    resolved_at: '2026-07-21'
+    slug: harvey
+    source: auto
+  hex:
+    ats_type: ashby
+    display_name: Hex
+    resolved_at: '2026-07-21'
+    slug: hex
+    source: auto
+  hightouch:
+    ats_type: greenhouse
+    display_name: Hightouch
+    resolved_at: '2026-07-21'
+    slug: hightouch
+    source: auto
+  hive:
+    ats_type: greenhouse
+    display_name: Hive
+    resolved_at: '2026-07-21'
+    slug: hive
+    source: auto
+  hubspot:
+    ats_type: greenhouse
+    display_name: HubSpot
+    resolved_at: '2026-07-21'
+    slug: hubspot
+    source: auto
+  human interest:
+    ats_type: greenhouse
+    display_name: Human Interest
+    resolved_at: '2026-07-21'
+    slug: humaninterest
+    source: auto
+  influxdata:
+    ats_type: ashby
+    display_name: InfluxData
+    resolved_at: '2026-07-21'
+    slug: influxdata
+    source: auto
+  instawork:
+    ats_type: greenhouse
+    display_name: Instawork
+    resolved_at: '2026-07-21'
+    slug: instawork
+    source: auto
+  intercom:
+    ats_type: greenhouse
+    display_name: Intercom
+    resolved_at: '2026-07-21'
+    slug: intercom
+    source: auto
+  iterable:
+    ats_type: greenhouse
+    display_name: Iterable
+    resolved_at: '2026-07-21'
+    slug: iterable
+    source: auto
+  justworks:
+    ats_type: greenhouse
+    display_name: Justworks
+    resolved_at: '2026-07-21'
+    slug: justworks
+    source: auto
+  klaviyo:
+    ats_type: greenhouse
+    display_name: Klaviyo
+    resolved_at: '2026-07-21'
+    slug: klaviyo
+    source: auto
+  komodo health:
+    ats_type: greenhouse
+    display_name: Komodo Health
+    resolved_at: '2026-07-21'
+    slug: komodohealth
+    source: auto
+  labelbox:
+    ats_type: greenhouse
+    display_name: Labelbox
+    resolved_at: '2026-07-21'
+    slug: labelbox
+    source: auto
+  langchain:
+    ats_type: ashby
+    display_name: LangChain
+    resolved_at: '2026-07-21'
+    slug: langchain
+    source: auto
+  langdock:
+    ats_type: ashby
+    display_name: Langdock
+    resolved_at: '2026-07-21'
+    slug: langdock
+    source: auto
+  latent:
+    ats_type: greenhouse
+    display_name: Latent
+    resolved_at: '2026-07-21'
+    slug: latent
+    source: auto
+  lattice:
+    ats_type: greenhouse
+    display_name: Lattice
+    resolved_at: '2026-07-21'
+    slug: lattice
+    source: auto
+  legora:
+    ats_type: ashby
+    display_name: Legora
+    resolved_at: '2026-07-21'
+    slug: legora
+    source: auto
+  linear:
+    ats_type: ashby
+    display_name: Linear
+    resolved_at: '2026-07-21'
+    slug: linear
+    source: auto
+  lob:
+    ats_type: greenhouse
+    display_name: Lob
+    resolved_at: '2026-07-21'
+    slug: lob
+    source: auto
+  loom:
+    ats_type: ashby
+    display_name: Loom
+    resolved_at: '2026-07-21'
+    slug: loom
+    source: auto
+  magic:
+    ats_type: greenhouse
+    display_name: Magic
+    resolved_at: '2026-07-21'
+    slug: magic
+    source: auto
+  marble health:
+    ats_type: ashby
+    display_name: Marble Health
+    resolved_at: '2026-07-21'
+    slug: marblehealth
+    source: auto
+  marqvision:
+    ats_type: greenhouse
+    display_name: MarqVision
+    resolved_at: '2026-07-21'
+    slug: marqvision
+    source: auto
+  mashgin:
+    ats_type: lever
+    display_name: Mashgin
+    resolved_at: '2026-07-21'
+    slug: mashgin
+    source: auto
+  mattermost:
+    ats_type: greenhouse
+    display_name: Mattermost
+    resolved_at: '2026-07-21'
+    slug: mattermost
+    source: auto
+  may mobility:
+    ats_type: greenhouse
+    display_name: May Mobility
+    resolved_at: '2026-07-21'
+    slug: maymobility
+    source: auto
+  meesho:
+    ats_type: lever
+    display_name: Meesho
+    resolved_at: '2026-07-21'
+    slug: meesho
+    source: auto
+  metabase:
+    ats_type: lever
+    display_name: Metabase
+    resolved_at: '2026-07-21'
+    slug: metabase
+    source: auto
+  miro:
+    ats_type: ashby
+    display_name: Miro
+    resolved_at: '2026-07-21'
+    slug: miro
+    source: auto
+  miso:
+    ats_type: ashby
+    display_name: Miso
+    resolved_at: '2026-07-21'
+    slug: miso
+    source: auto
+  mistral ai:
+    ats_type: lever
+    display_name: Mistral AI
+    resolved_at: '2026-07-21'
+    slug: mistral
+    source: auto
+  mixpanel:
+    ats_type: greenhouse
+    display_name: Mixpanel
+    resolved_at: '2026-07-21'
+    slug: mixpanel
+    source: auto
+  mongodb:
+    ats_type: greenhouse
+    display_name: MongoDB
+    resolved_at: '2026-07-21'
+    slug: mongodb
+    source: auto
+  movable ink:
+    ats_type: greenhouse
+    display_name: Movable Ink
+    resolved_at: '2026-07-21'
+    slug: movableink
+    source: auto
+  mux:
+    ats_type: ashby
+    display_name: Mux
+    resolved_at: '2026-07-21'
+    slug: mux
+    source: auto
+  netlify:
+    ats_type: greenhouse
+    display_name: Netlify
+    resolved_at: '2026-07-21'
+    slug: netlify
+    source: auto
+  notion:
+    ats_type: ashby
+    display_name: Notion
+    resolved_at: '2026-07-21'
+    slug: notion
+    source: auto
+  odeko:
+    ats_type: greenhouse
+    display_name: Odeko
+    resolved_at: '2026-07-21'
+    slug: odeko
+    source: auto
+  openai:
+    ats_type: ashby
+    display_name: OpenAI
+    resolved_at: '2026-07-21'
+    slug: openai
+    source: auto
+  oscar health:
+    ats_type: greenhouse
+    display_name: Oscar Health
+    resolved_at: '2026-07-21'
+    slug: oscar
+    source: auto
+  outreach:
+    ats_type: lever
+    display_name: Outreach
+    resolved_at: '2026-07-21'
+    slug: outreach
+    source: auto
+  padlet:
+    ats_type: ashby
+    display_name: Padlet
+    resolved_at: '2026-07-21'
+    slug: padlet
+    source: auto
+  pagerduty:
+    ats_type: greenhouse
+    display_name: PagerDuty
+    resolved_at: '2026-07-21'
+    slug: pagerduty
+    source: auto
+  pendo:
+    ats_type: greenhouse
+    display_name: Pendo
+    resolved_at: '2026-07-21'
+    slug: pendo
+    source: auto
+  permutive:
+    ats_type: ashby
+    display_name: Permutive
+    resolved_at: '2026-07-21'
+    slug: permutive
+    source: auto
+  perplexity:
+    ats_type: ashby
+    display_name: Perplexity
+    resolved_at: '2026-07-21'
+    slug: perplexity
+    source: auto
+  pinecone:
+    ats_type: ashby
+    display_name: Pinecone
+    resolved_at: '2026-07-21'
+    slug: pinecone
+    source: auto
+  pinterest:
+    ats_type: greenhouse
+    display_name: Pinterest
+    resolved_at: '2026-07-21'
+    slug: pinterest
+    source: auto
+  planetscale:
+    ats_type: greenhouse
+    display_name: PlanetScale
+    resolved_at: '2026-07-21'
+    slug: planetscale
+    source: auto
+  plivo:
+    ats_type: lever
+    display_name: Plivo
+    resolved_at: '2026-07-21'
+    slug: plivo
+    source: auto
+  podium:
+    ats_type: ashby
+    display_name: Podium
+    resolved_at: '2026-07-21'
+    slug: podium
+    source: auto
+  popl:
+    ats_type: ashby
+    display_name: Popl
+    resolved_at: '2026-07-21'
+    slug: popl
+    source: auto
+  postman:
+    ats_type: greenhouse
+    display_name: Postman
+    resolved_at: '2026-07-21'
+    slug: postman
+    source: auto
+  promise:
+    ats_type: ashby
+    display_name: Promise
+    resolved_at: '2026-07-21'
+    slug: promise
+    source: auto
+  protocol labs:
+    ats_type: ashby
+    display_name: Protocol Labs
+    resolved_at: '2026-07-21'
+    slug: protocol
+    source: auto
+  qventus:
+    ats_type: greenhouse
+    display_name: Qventus
+    resolved_at: '2026-07-21'
+    slug: qventus
+    source: auto
+  radar:
+    ats_type: greenhouse
+    display_name: RADAR
+    resolved_at: '2026-07-21'
+    slug: radar
+    source: auto
+  ramp:
+    ats_type: ashby
+    display_name: Ramp
+    resolved_at: '2026-07-21'
+    slug: ramp
+    source: auto
+  raycast:
+    ats_type: ashby
+    display_name: Raycast
+    resolved_at: '2026-07-21'
+    slug: raycast
+    source: auto
+  readme:
+    ats_type: ashby
+    display_name: ReadMe
+    resolved_at: '2026-07-21'
+    slug: readme
+    source: auto
+  reddit:
+    ats_type: greenhouse
+    display_name: Reddit
+    resolved_at: '2026-07-21'
+    slug: reddit
+    source: auto
+  relativity space:
+    ats_type: greenhouse
+    display_name: Relativity Space
+    resolved_at: '2026-07-21'
+    slug: relativity
+    source: auto
+  replit:
+    ats_type: ashby
+    display_name: Replit
+    resolved_at: '2026-07-21'
+    slug: replit
+    source: auto
+  revivn:
+    ats_type: greenhouse
+    display_name: Revivn
+    resolved_at: '2026-07-21'
+    slug: revivn
+    source: auto
+  runway:
+    ats_type: ashby
+    display_name: Runway
+    resolved_at: '2026-07-21'
+    slug: runway
+    source: auto
+  scale ai:
+    ats_type: greenhouse
+    display_name: Scale AI
+    resolved_at: '2026-07-21'
+    slug: scaleai
+    source: auto
+  "schr\xF6dinger, inc.":
+    ats_type: greenhouse
+    display_name: "Schr\xF6dinger, Inc."
+    resolved_at: '2026-07-21'
+    slug: schrdinger
+    source: auto
+  sendbird:
+    ats_type: greenhouse
+    display_name: Sendbird
+    resolved_at: '2026-07-21'
+    slug: sendbird
+    source: auto
+  sierra:
+    ats_type: ashby
+    display_name: Sierra
+    resolved_at: '2026-07-21'
+    slug: sierra
+    source: auto
+  snowflake:
+    ats_type: ashby
+    display_name: Snowflake
+    resolved_at: '2026-07-21'
+    slug: snowflake
+    source: auto
+  spotify:
+    ats_type: lever
+    display_name: Spotify
+    resolved_at: '2026-07-21'
+    slug: spotify
+    source: auto
+  squarespace:
+    ats_type: greenhouse
+    display_name: Squarespace
+    resolved_at: '2026-07-21'
+    slug: squarespace
+    source: auto
+  submittable:
+    ats_type: greenhouse
+    display_name: Submittable
+    resolved_at: '2026-07-21'
+    slug: submittable
+    source: auto
+  suki:
+    ats_type: greenhouse
+    display_name: Suki
+    resolved_at: '2026-07-21'
+    slug: suki
+    source: auto
+  suno:
+    ats_type: ashby
+    display_name: Suno
+    resolved_at: '2026-07-21'
+    slug: suno
+    source: auto
+  supabase:
+    ats_type: ashby
+    display_name: Supabase
+    resolved_at: '2026-07-21'
+    slug: supabase
+    source: auto
+  superside:
+    ats_type: lever
+    display_name: Superside
+    resolved_at: '2026-07-21'
+    slug: superside
+    source: auto
+  taktile:
+    ats_type: ashby
+    display_name: Taktile
+    resolved_at: '2026-07-21'
+    slug: taktile
+    source: auto
+  teleport:
+    ats_type: lever
+    display_name: Teleport
+    resolved_at: '2026-07-21'
+    slug: teleport
+    source: auto
+  temporal:
+    ats_type: ashby
+    display_name: Temporal
+    resolved_at: '2026-07-21'
+    slug: temporal
+    source: auto
+  tesorio:
+    ats_type: lever
+    display_name: Tesorio
+    resolved_at: '2026-07-21'
+    slug: tesorio
+    source: auto
+  together ai:
+    ats_type: greenhouse
+    display_name: Together AI
+    resolved_at: '2026-07-21'
+    slug: togetherai
+    source: auto
+  tractable:
+    ats_type: ashby
+    display_name: Tractable
+    resolved_at: '2026-07-21'
+    slug: tractable
+    source: auto
+  truveta:
+    ats_type: greenhouse
+    display_name: Truveta
+    resolved_at: '2026-07-21'
+    slug: truveta
+    source: auto
+  twilio:
+    ats_type: greenhouse
+    display_name: Twilio
+    resolved_at: '2026-07-21'
+    slug: twilio
+    source: auto
+  usergems:
+    ats_type: greenhouse
+    display_name: UserGems
+    resolved_at: '2026-07-21'
+    slug: usergems
+    source: auto
+  vapi:
+    ats_type: ashby
+    display_name: Vapi
+    resolved_at: '2026-07-21'
+    slug: vapi
+    source: auto
+  vercel:
+    ats_type: greenhouse
+    display_name: Vercel
+    resolved_at: '2026-07-21'
+    slug: vercel
+    source: auto
+  verge genomics:
+    ats_type: ashby
+    display_name: Verge Genomics
+    resolved_at: '2026-07-21'
+    slug: verge-genomics
+    source: auto
+  vergesense:
+    ats_type: lever
+    display_name: VergeSense
+    resolved_at: '2026-07-21'
+    slug: vergesense
+    source: auto
+  via:
+    ats_type: greenhouse
+    display_name: Via
+    resolved_at: '2026-07-21'
+    slug: via
+    source: auto
+  warmly:
+    ats_type: lever
+    display_name: Warmly
+    resolved_at: '2026-07-21'
+    slug: warmly
+    source: auto
+  warp:
+    ats_type: greenhouse
+    display_name: Warp
+    resolved_at: '2026-07-21'
+    slug: warp
+    source: auto
+  weave:
+    ats_type: greenhouse
+    display_name: Weave
+    resolved_at: '2026-07-21'
+    slug: weave
+    source: auto
+  weaviate:
+    ats_type: ashby
+    display_name: Weaviate
+    resolved_at: '2026-07-21'
+    slug: weaviate
+    source: auto
+  webflow:
+    ats_type: greenhouse
+    display_name: Webflow
+    resolved_at: '2026-07-21'
+    slug: webflow
+    source: auto
+  weekend (fmr. volley):
+    ats_type: ashby
+    display_name: Weekend (fmr. Volley)
+    resolved_at: '2026-07-21'
+    slug: weekend
+    source: auto
+  writer:
+    ats_type: ashby
+    display_name: Writer
+    resolved_at: '2026-07-21'
+    slug: writer
+    source: auto
+  yext:
+    ats_type: greenhouse
+    display_name: Yext
+    resolved_at: '2026-07-21'
+    slug: yext
+    source: auto
+  zapier:
+    ats_type: ashby
+    display_name: Zapier
+    resolved_at: '2026-07-21'
+    slug: zapier
+    source: auto
+unresolved:
+- glean
+- hebbia
+- anysphere
+- crescendo
+- clay
+- weights & biases
+- codeium
+- retool
+- dbt labs
+- census
+- hashicorp
+- chronosphere
+- sourcegraph
+- rippling
+- ironclad
+- spellbook
+- clio
+- monte carlo
+- bigeye
+- metaplane
+- secoda
+- rudderstack
+- heap
+- canva
+- grammarly
+- segment
+- clearbit
+- gong
+- chorus
+- innovaccer
+- salesforce
+- servicenow
+- workday
+- zendesk
+- docusign
+- adobe
+- sap
+- microsoft
+- google
+- amazon
+- bloomberg
+- compass
+- digitalocean
+- vimeo
+- enigma
+- go1
+- grubmarket
+- nowports
+- shipbob
+- daily
+- mason
+- getaccept
+- chatfuel
+- fountain
+- zeplin
+- platzi
+- onesignal
+- mezmo
+- front
+- povio
+- ambition
+- cratejoy
+- easypost
+- strikingly
+- upwave
+- throxy
+- zeitview
+- model ml
+- fetii
+- humand
+- iotflows inc
+- verihubs
+- anakin
+- swipe
+- treinta
+- rinsed
+- mindee
+- leena ai
+- klarity
+- nuvocargo
+- jasper.ai
+- veryfi, inc.
+- bego
+- querypie ai
+- datasaur
+- people.ai
+- motion
+- superb ai
+- kunduz
+- numerion labs
+- shipblu
+- standard ai
+- clinikally
+- goodrx
+- nourish
+- northslope
+- teragonia
+- tapestry - coach and kate spade

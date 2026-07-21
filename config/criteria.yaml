@@ -1,0 +1,73 @@
+# Job search rubric. Both filter stages (src/filter_claude.py) load this file
+# and inline it into the Claude prompts — keep it in plain language since it
+# is read by the model, not just by code.
+
+role:
+  target_titles:
+    - "Staff Product Manager"
+    - "Group Product Manager"
+    - "Principal Product Manager"
+  equivalents_note: >
+    Titles that clearly signal the same seniority band (e.g. "Principal PM",
+    "Group PM", "Senior Staff PM") should be treated as matches even if the
+    exact words differ.
+  hard_fail_titles:
+    - "Associate Product Manager"
+    - "APM"
+    - "Product Manager I"
+    - "Product Manager II"
+    - "Junior Product Manager"
+    - "PM Intern"
+    - "Product Owner"
+
+domain:
+  required_any:
+    - "B2B enterprise software"
+    - "AI / ML products"
+
+scope:
+  description: >
+    0-1 builds or scaling a new product line. NOT maintenance of a mature,
+    already-established product with an existing steady-state roadmap.
+
+company_stage:
+  minimum: "Series B"
+  hard_fail_below: "seed / pre-seed"
+  note: >
+    Public / late-stage / established companies count as meeting this bar.
+
+impact:
+  description: >
+    High-visibility work with serious business impact: signals like
+    "millions in revenue," a new market bet, executive visibility, or a
+    multi-year build/scale mandate (3-5 years, not a fast-flip role).
+
+management_style:
+  fit: "hybrid IC + management"
+  description: >
+    Wants to mentor at minimum, ideally manage a small team of 1-2 while
+    remaining hands-on individually. Pure people-management roles with no
+    IC component are a weaker fit. Pure IC-only roles with zero
+    mentoring/leadership scope are also a weaker fit.
+
+location:
+  accept:
+    - "NY-based hybrid, 3 or fewer days/week in office"
+    - "fully remote"
+  hard_fail:
+    - "hybrid requiring 4+ days/week in office"
+    - "on-site outside NY with no remote option"
+
+compensation:
+  minimum_total_comp_usd: 200000
+  fallback: "base salary if total comp isn't disclosed"
+  note: >
+    Flag ambiguous/undisclosed comp cases rather than silently dropping them.
+
+excluded_industries:
+  - fintech
+  - security / compliance software
+
+scoring:
+  scale: "1-10"
+  threshold_for_digest: 7
