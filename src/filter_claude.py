@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import json
 import logging
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 import anthropic
@@ -26,6 +27,11 @@ logger = logging.getLogger(__name__)
 STAGE1_MODEL = "claude-haiku-4-5-20251001"
 STAGE2_MODEL = "claude-sonnet-5"
 STAGE1_BATCH_SIZE = 20
+
+# Both stages issue independent, stateless API calls, so they parallelize
+# safely with a thread pool -- well within rate limits at this volume (Start
+# tier alone allows 1,000 req/min for both Haiku and Sonnet).
+MAX_WORKERS = 8
 
 PM_TITLE_MARKERS = ["product manager", "product management"]
 
@@ -162,35 +168,38 @@ def title_prefilter(criteria: dict, jobs: list[dict]) -> list[dict]:
     return survivors
 
 
+def _stage1_screen_batch(client: anthropic.Anthropic, criteria: dict, batch: list[dict]) -> list[dict]:
+    try:
+        message = client.messages.create(
+            model=STAGE1_MODEL,
+            max_tokens=2048,
+            tools=[STAGE1_TOOL],
+            tool_choice={"type": "tool", "name": "screen_listings"},
+            messages=[{"role": "user", "content": _stage1_prompt(criteria, batch)}],
+        )
+        result = _extract_tool_input(message, "screen_listings")
+    except anthropic.APIError as exc:
+        logger.warning("stage1: API error on a batch: %s", exc)
+        # Fail open: let the batch through to stage 2 rather than silently dropping it.
+        return batch
+
+    if not result:
+        logger.warning("stage1: no tool result for a batch, failing open")
+        return batch
+
+    passed_indices = {r["index"] for r in result["results"] if r.get("pass")}
+    return [job for i, job in enumerate(batch) if i in passed_indices]
+
+
 def stage1_screen(client: anthropic.Anthropic, criteria: dict, jobs: list[dict]) -> list[dict]:
-    """Batch-screen listings with Haiku. Returns the subset that passes."""
+    """Batch-screen listings with Haiku, batches run concurrently. Returns
+    the subset that passes."""
+    batches = [jobs[start : start + STAGE1_BATCH_SIZE] for start in range(0, len(jobs), STAGE1_BATCH_SIZE)]
     survivors = []
-    for start in range(0, len(jobs), STAGE1_BATCH_SIZE):
-        batch = jobs[start : start + STAGE1_BATCH_SIZE]
-        try:
-            message = client.messages.create(
-                model=STAGE1_MODEL,
-                max_tokens=2048,
-                tools=[STAGE1_TOOL],
-                tool_choice={"type": "tool", "name": "screen_listings"},
-                messages=[{"role": "user", "content": _stage1_prompt(criteria, batch)}],
-            )
-            result = _extract_tool_input(message, "screen_listings")
-        except anthropic.APIError as exc:
-            logger.warning("stage1: API error on batch starting at %d: %s", start, exc)
-            # Fail open: let the batch through to stage 2 rather than silently dropping it.
-            survivors.extend(batch)
-            continue
-
-        if not result:
-            logger.warning("stage1: no tool result for batch starting at %d, failing open", start)
-            survivors.extend(batch)
-            continue
-
-        passed_indices = {r["index"] for r in result["results"] if r.get("pass")}
-        for i, job in enumerate(batch):
-            if i in passed_indices:
-                survivors.append(job)
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        futures = [executor.submit(_stage1_screen_batch, client, criteria, batch) for batch in batches]
+        for future in as_completed(futures):
+            survivors.extend(future.result())
     return survivors
 
 
@@ -213,3 +222,14 @@ def stage2_score(client: anthropic.Anthropic, criteria: dict, job: dict) -> dict
         logger.warning("stage2: no tool result scoring %s @ %s", job.get("title"), job.get("company"))
         return None
     return result
+
+
+def stage2_score_all(client: anthropic.Anthropic, criteria: dict, jobs: list[dict]) -> list[tuple[dict, dict | None]]:
+    """Score all survivors concurrently. Each call is independent and
+    stateless, so this is safe to parallelize. Returns (job, result) pairs;
+    result is None for any job that failed to score. Caller is responsible
+    for any shared state (e.g. DB writes) -- this function only makes API
+    calls, it doesn't touch the database."""
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        future_to_job = {executor.submit(stage2_score, client, criteria, job): job for job in jobs}
+        return [(future_to_job[future], future.result()) for future in as_completed(future_to_job)]

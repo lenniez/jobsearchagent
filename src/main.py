@@ -25,7 +25,7 @@ from dedupe import (
 from digest import send_digest
 from fetchers import builtin_scraper
 from fetchers.ats_detect import fetch_all_jobs
-from filter_claude import load_criteria, stage1_screen, stage2_score, title_prefilter
+from filter_claude import load_criteria, stage1_screen, stage2_score_all, title_prefilter
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_DIR = ROOT / "config"
@@ -121,8 +121,7 @@ def main() -> None:
     for job in pm_candidates:
         update_stage1(conn, job["_key"], job["_key"] in survivor_keys)
 
-    for job in survivors:
-        result = stage2_score(client, criteria, job)
+    for job, result in stage2_score_all(client, criteria, survivors):
         if result:
             update_stage2(conn, job["_key"], result)
 
