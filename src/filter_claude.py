@@ -1,5 +1,10 @@
 """Two-stage Claude filtering pipeline (§7 of project brief).
 
+A zero-cost local title prefilter runs before either stage: most fetched
+listings (engineering, sales, support, etc.) aren't product roles at all, so
+there's no reason to spend a Haiku call on them. Only listings that at least
+mention "product manager"/"product management" in the title reach stage 1.
+
 Stage 1 (Haiku, batched): cheap bulk pass — does title/level look like
 Staff/Group PM (or equivalent), does the company/industry look like B2B
 enterprise or AI? Drop clear non-matches.
@@ -21,6 +26,8 @@ logger = logging.getLogger(__name__)
 STAGE1_MODEL = "claude-haiku-4-5-20251001"
 STAGE2_MODEL = "claude-sonnet-5"
 STAGE1_BATCH_SIZE = 20
+
+PM_TITLE_MARKERS = ["product manager", "product management"]
 
 STAGE1_TOOL = {
     "name": "screen_listings",
@@ -135,6 +142,24 @@ description:
 Score this listing 1-10 against the full rubric. Be honest and specific — most listings
 will not be a 9 or 10. Flag ambiguous compensation as "unclear" rather than guessing.
 Call score_job with your structured assessment."""
+
+
+def title_prefilter(criteria: dict, jobs: list[dict]) -> list[dict]:
+    """Local, zero-cost pass: drop anything whose title doesn't even mention
+    product management, or that matches a hard-fail title (e.g. "Associate
+    Product Manager"). Most fetched listings are non-product roles entirely,
+    so this cuts stage 1 volume (and cost) dramatically before any API call.
+    Stage 1 still does the nuanced level/domain judgment on what survives."""
+    hard_fail_titles = [t.lower() for t in criteria["role"]["hard_fail_titles"]]
+    survivors = []
+    for job in jobs:
+        title = (job.get("title") or "").lower()
+        if not any(marker in title for marker in PM_TITLE_MARKERS):
+            continue
+        if any(hard_fail in title for hard_fail in hard_fail_titles):
+            continue
+        survivors.append(job)
+    return survivors
 
 
 def stage1_screen(client: anthropic.Anthropic, criteria: dict, jobs: list[dict]) -> list[dict]:

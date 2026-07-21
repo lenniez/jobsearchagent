@@ -25,11 +25,19 @@ from dedupe import (
 from digest import send_digest
 from fetchers import builtin_scraper
 from fetchers.ats_detect import fetch_all_jobs
-from filter_claude import load_criteria, stage1_screen, stage2_score
+from filter_claude import load_criteria, stage1_screen, stage2_score, title_prefilter
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_DIR = ROOT / "config"
 DATA_DIR = ROOT / "data"
+
+# Stage 1/2 Claude calls are sequential, so an unbounded backlog of PM-title
+# candidates (e.g. a company-wide reorg reposting hundreds of roles at once)
+# could still mean many sequential API calls in one workflow run even after
+# the local title prefilter. Capping per-run keeps cost and runtime
+# predictable; candidates beyond the cap are simply left unseen, so they're
+# picked up and processed on a later run instead of this one.
+DEFAULT_MAX_NEW_JOBS_PER_RUN = 300
 
 logger = logging.getLogger("main")
 
@@ -54,8 +62,9 @@ def main() -> None:
     resend_key = require_env("RESEND_API_KEY")
     resend_from = require_env("RESEND_FROM")
     resend_to = require_env("RESEND_TO")
-    threshold = int(os.environ.get("SCORE_THRESHOLD", "7"))
-    max_roles = int(os.environ.get("DIGEST_MAX_ROLES", "50"))
+    threshold = int(os.environ.get("SCORE_THRESHOLD") or "7")
+    max_roles = int(os.environ.get("DIGEST_MAX_ROLES") or "50")
+    max_new_per_run = int(os.environ.get("MAX_NEW_JOBS_PER_RUN") or DEFAULT_MAX_NEW_JOBS_PER_RUN)
 
     companies = load_companies()
     logger.info("loaded %d companies", len(companies))
@@ -70,20 +79,46 @@ def main() -> None:
     conn = connect(DATA_DIR / "seen_jobs.db")
     new_jobs = filter_new_jobs(conn, jobs)
     logger.info("%d new (deduped) listings to evaluate", len(new_jobs))
-    for job in new_jobs:
+
+    criteria = load_criteria(CONFIG_DIR / "criteria.yaml")
+
+    # Local, zero-cost pass: most fetched listings aren't product roles at
+    # all, so drop those before spending any Claude call on them. Insert
+    # them as immediately-resolved (stage1_pass=False) so they're deduped
+    # for good, not re-fetched and re-checked every day.
+    pm_candidates = title_prefilter(criteria, new_jobs)
+    pm_candidate_keys = {job["_key"] for job in pm_candidates}
+    non_pm_jobs = [job for job in new_jobs if job["_key"] not in pm_candidate_keys]
+    logger.info(
+        "%d/%d new listings mention product management (no API cost to filter the rest)",
+        len(pm_candidates),
+        len(new_jobs),
+    )
+    for job in non_pm_jobs:
+        insert_job(conn, job)
+        update_stage1(conn, job["_key"], False)
+
+    if len(pm_candidates) > max_new_per_run:
+        logger.info(
+            "%d PM-title candidates found, processing %d this run; the rest "
+            "stay unseen and will be picked up on a future run",
+            len(pm_candidates),
+            max_new_per_run,
+        )
+        pm_candidates = pm_candidates[:max_new_per_run]
+    for job in pm_candidates:
         insert_job(conn, job)
 
-    if not new_jobs:
-        logger.info("nothing new today; exiting")
+    if not pm_candidates:
+        logger.info("nothing new to score today; exiting")
         return
 
     client = anthropic.Anthropic(api_key=anthropic_key)
-    criteria = load_criteria(CONFIG_DIR / "criteria.yaml")
 
-    survivors = stage1_screen(client, criteria, new_jobs)
-    logger.info("%d/%d survived stage 1", len(survivors), len(new_jobs))
+    survivors = stage1_screen(client, criteria, pm_candidates)
+    logger.info("%d/%d survived stage 1", len(survivors), len(pm_candidates))
     survivor_keys = {job["_key"] for job in survivors}
-    for job in new_jobs:
+    for job in pm_candidates:
         update_stage1(conn, job["_key"], job["_key"] in survivor_keys)
 
     for job in survivors:
