@@ -115,7 +115,7 @@ def update_stage2(conn: sqlite3.Connection, key: str, result: dict) -> None:
             """
             UPDATE jobs SET
                 score = ?, level_match = ?, scope_0_to_1 = ?, location_match = ?,
-                comp_meets_200k = ?, management_fit = ?, reasoning = ?, red_flags = ?
+                management_fit = ?, reasoning = ?, red_flags = ?
             WHERE key = ?
             """,
             (
@@ -123,7 +123,6 @@ def update_stage2(conn: sqlite3.Connection, key: str, result: dict) -> None:
                 int(bool(result.get("level_match"))),
                 int(bool(result.get("scope_0_to_1"))),
                 int(bool(result.get("location_match"))),
-                str(result.get("comp_meets_200k")),
                 result.get("management_fit"),
                 result.get("reasoning"),
                 json.dumps(result.get("red_flags", [])),

@@ -21,9 +21,18 @@ role:
     - "Product Owner"
 
 domain:
+  description: >
+    The domain test applies to the specific product/role, not necessarily
+    the whole company. The role must involve either a B2B enterprise
+    offering, or AI functionality (or both).
   required_any:
-    - "B2B enterprise software"
-    - "AI / ML products"
+    - "B2B enterprise offering"
+    - "AI functionality"
+  examples: >
+    A consumer-first company spinning up a B2B arm counts (e.g. a PM role
+    on Notion's team offering, even though Notion is consumer-rooted).
+    General marketing tech platforms count even without an AI angle (e.g.
+    Kit, Mailchimp) as long as the product itself is B2B.
 
 scope:
   description: >
@@ -35,6 +44,11 @@ company_stage:
   hard_fail_below: "seed / pre-seed"
   note: >
     Public / late-stage / established companies count as meeting this bar.
+  soft_preference: >
+    Slight preference for companies with under 1000 employees. This is a
+    tiebreaker, not a hard filter -- a larger company that clears every
+    other criterion is still a strong match, just not quite as ideal as an
+    otherwise-identical smaller one.
 
 impact:
   description: >
@@ -57,12 +71,6 @@ location:
   hard_fail:
     - "hybrid requiring 4+ days/week in office"
     - "on-site outside NY with no remote option"
-
-compensation:
-  minimum_total_comp_usd: 200000
-  fallback: "base salary if total comp isn't disclosed"
-  note: >
-    Flag ambiguous/undisclosed comp cases rather than silently dropping them.
 
 excluded_industries:
   - fintech

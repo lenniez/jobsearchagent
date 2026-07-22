@@ -19,15 +19,6 @@ logger = logging.getLogger(__name__)
 DEFAULT_MAX_ROLES = 50
 
 
-def _comp_label(job: dict) -> str:
-    value = job.get("comp_meets_200k")
-    if value in (1, "1", True, "True"):
-        return "$200K+"
-    if value in (0, "0", False, "False"):
-        return "Below $200K"
-    return "Comp unclear"
-
-
 def select_for_digest(matches: list[dict], max_roles: int = DEFAULT_MAX_ROLES) -> list[dict]:
     """Matches are expected pre-sorted by score descending (dedupe.get_unemailed_matches)."""
     return matches[:max_roles]
@@ -42,7 +33,6 @@ def build_html(jobs: list[dict]) -> str:
         url = html.escape(job.get("url") or "", quote=True)
         score = job.get("score")
         reasoning = html.escape(job.get("reasoning") or "")
-        comp = _comp_label(job)
         rows.append(
             f"""
             <tr>
@@ -51,7 +41,7 @@ def build_html(jobs: list[dict]) -> str:
                   <a href="{url}" style="color:#111;text-decoration:none;">{title}</a>
                 </div>
                 <div style="color:#555;font-size:13px;margin-top:2px;">
-                  {company} &middot; {location} &middot; {comp}
+                  {company} &middot; {location}
                 </div>
                 <div style="color:#777;font-size:13px;margin-top:6px;">{reasoning}</div>
               </td>

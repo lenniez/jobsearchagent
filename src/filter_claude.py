@@ -67,9 +67,6 @@ STAGE2_TOOL = {
             "level_match": {"type": "boolean"},
             "scope_0_to_1": {"type": "boolean"},
             "location_match": {"type": "boolean"},
-            "comp_meets_200k": {
-                "anyOf": [{"type": "boolean"}, {"const": "unclear"}]
-            },
             "management_fit": {
                 "type": "string",
                 "enum": ["ic-only", "hybrid", "management-only", "unclear"],
@@ -82,7 +79,6 @@ STAGE2_TOOL = {
             "level_match",
             "scope_0_to_1",
             "location_match",
-            "comp_meets_200k",
             "management_fit",
             "reasoning",
             "red_flags",
@@ -115,8 +111,11 @@ def _stage1_prompt(criteria: dict, batch: list[dict]) -> str:
 
 The candidate wants: {target_titles} (or a clear seniority equivalent like "Principal PM").
 Hard-fail titles (never pass these): {hard_fail_titles}.
-Domain must plausibly be B2B enterprise software or AI/ML products — reject obviously
-irrelevant domains (e.g. pure consumer-only apps with no B2B angle, unrelated industries).
+Domain must plausibly involve a B2B enterprise offering and/or AI functionality — this
+applies to the specific product/role, not necessarily the whole company. A consumer-first
+company's B2B-specific team (e.g. a PM role on Notion's team/enterprise offering) still
+counts. Only reject domains that are clearly irrelevant (e.g. a pure consumer product with
+no B2B angle and no AI functionality, or an unrelated industry).
 
 This is a coarse filter — when genuinely uncertain, let it pass through to the more careful
 second-stage review rather than guessing. Only fail listings that clearly violate the title or
@@ -146,8 +145,7 @@ description:
 {description}
 
 Score this listing 1-10 against the full rubric. Be honest and specific — most listings
-will not be a 9 or 10. Flag ambiguous compensation as "unclear" rather than guessing.
-Call score_job with your structured assessment."""
+will not be a 9 or 10. Call score_job with your structured assessment."""
 
 
 def title_prefilter(criteria: dict, jobs: list[dict]) -> list[dict]:
