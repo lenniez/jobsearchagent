@@ -761,6 +761,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: replit
     source: auto
+  retell ai:
+    ats_type: ashby
+    display_name: Retell AI
+    resolved_at: '2026-07-22'
+    slug: retell-ai
+    source: auto
   revivn:
     ats_type: greenhouse
     display_name: Revivn
