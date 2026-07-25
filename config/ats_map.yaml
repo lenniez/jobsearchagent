@@ -101,6 +101,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: attentive
     source: auto
+  attio:
+    ats_type: ashby
+    display_name: Attio
+    resolved_at: '2026-07-25'
+    slug: attio
+    source: auto
   benchling:
     ats_type: ashby
     display_name: Benchling
@@ -503,6 +509,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: loom
     source: auto
+  m13:
+    ats_type: ashby
+    display_name: M13
+    resolved_at: '2026-07-25'
+    slug: m13
+    source: auto
   magic:
     ats_type: greenhouse
     display_name: Magic
@@ -779,6 +791,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: runway
     source: auto
+  sailor health:
+    ats_type: ashby
+    display_name: Sailor Health
+    resolved_at: '2026-07-25'
+    slug: sailorhealth
+    source: auto
   scale ai:
     ats_type: greenhouse
     display_name: Scale AI
@@ -989,6 +1007,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: zapier
     source: auto
+  zocdoc:
+    ats_type: greenhouse
+    display_name: Zocdoc
+    resolved_at: '2026-07-25'
+    slug: zocdoc
+    source: auto
 unresolved:
 - glean
 - hebbia
@@ -1088,3 +1112,10 @@ unresolved:
 - northslope
 - teragonia
 - tapestry - coach and kate spade
+- projectx
+- standard template labs
+- zs
+- fluent, inc.
+- regal
+- citadel
+- particle health

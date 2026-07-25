@@ -315,42 +315,18 @@ companies:
 - name: Flock Safety
   category: discovered
   unresolved_streak: 0
-- name: Go1
-  category: discovered
-  unresolved_streak: 2
-- name: GrubMarket
-  category: discovered
-  unresolved_streak: 2
-- name: Nowports
-  category: discovered
-  unresolved_streak: 2
 - name: Odeko
   category: discovered
   unresolved_streak: 0
 - name: Podium
   category: discovered
   unresolved_streak: 0
-- name: ShipBob
-  category: discovered
-  unresolved_streak: 2
 - name: Zapier
   category: discovered
   unresolved_streak: 0
 - name: Focal Systems
   category: discovered
   unresolved_streak: 0
-- name: Daily
-  category: discovered
-  unresolved_streak: 2
-- name: Mason
-  category: discovered
-  unresolved_streak: 2
-- name: GetAccept
-  category: discovered
-  unresolved_streak: 2
-- name: Chatfuel
-  category: discovered
-  unresolved_streak: 2
 - name: Deepgram
   category: discovered
   unresolved_streak: 0
@@ -366,12 +342,6 @@ companies:
 - name: Bitmovin
   category: discovered
   unresolved_streak: 0
-- name: Fountain
-  category: discovered
-  unresolved_streak: 2
-- name: Zeplin
-  category: discovered
-  unresolved_streak: 2
 - name: Tesorio
   category: discovered
   unresolved_streak: 0
@@ -384,24 +354,12 @@ companies:
 - name: ReadMe
   category: discovered
   unresolved_streak: 0
-- name: Platzi
-  category: discovered
-  unresolved_streak: 2
-- name: OneSignal
-  category: discovered
-  unresolved_streak: 2
 - name: Magic
   category: discovered
   unresolved_streak: 0
-- name: Mezmo
-  category: discovered
-  unresolved_streak: 2
 - name: HackerRank
   category: discovered
   unresolved_streak: 0
-- name: Front
-  category: discovered
-  unresolved_streak: 2
 - name: Apollo
   category: discovered
   unresolved_streak: 0
@@ -417,27 +375,12 @@ companies:
 - name: Protocol Labs
   category: discovered
   unresolved_streak: 0
-- name: Povio
-  category: discovered
-  unresolved_streak: 2
-- name: Ambition
-  category: discovered
-  unresolved_streak: 2
 - name: Lob
   category: discovered
   unresolved_streak: 0
-- name: Cratejoy
-  category: discovered
-  unresolved_streak: 2
-- name: EasyPost
-  category: discovered
-  unresolved_streak: 2
 - name: RADAR
   category: discovered
   unresolved_streak: 0
-- name: Strikingly
-  category: discovered
-  unresolved_streak: 2
 - name: InfluxData
   category: discovered
   unresolved_streak: 0
@@ -450,30 +393,18 @@ companies:
 - name: Submittable
   category: discovered
   unresolved_streak: 0
-- name: Upwave
-  category: discovered
-  unresolved_streak: 2
 - name: Mattermost
   category: discovered
   unresolved_streak: 0
-- name: throxy
-  category: discovered
-  unresolved_streak: 2
 - name: Conveo
   category: discovered
   unresolved_streak: 0
-- name: Zeitview
-  category: discovered
-  unresolved_streak: 2
 - name: Akido Labs
   category: discovered
   unresolved_streak: 0
 - name: Qventus
   category: discovered
   unresolved_streak: 0
-- name: Model ML
-  category: discovered
-  unresolved_streak: 2
 - name: Legora
   category: discovered
   unresolved_streak: 0
@@ -486,42 +417,15 @@ companies:
 - name: Cambio
   category: discovered
   unresolved_streak: 0
-- name: Fetii
-  category: discovered
-  unresolved_streak: 2
 - name: GovDash
   category: discovered
   unresolved_streak: 0
-- name: Humand
-  category: discovered
-  unresolved_streak: 2
-- name: IoTFlows Inc
-  category: discovered
-  unresolved_streak: 2
-- name: Verihubs
-  category: discovered
-  unresolved_streak: 2
-- name: Anakin
-  category: discovered
-  unresolved_streak: 2
-- name: Swipe
-  category: discovered
-  unresolved_streak: 2
 - name: MarqVision
   category: discovered
   unresolved_streak: 0
-- name: Treinta
-  category: discovered
-  unresolved_streak: 2
-- name: Rinsed
-  category: discovered
-  unresolved_streak: 2
 - name: Popl
   category: discovered
   unresolved_streak: 0
-- name: Mindee
-  category: discovered
-  unresolved_streak: 2
 - name: Vapi
   category: discovered
   unresolved_streak: 0
@@ -534,24 +438,12 @@ companies:
 - name: Taktile
   category: discovered
   unresolved_streak: 0
-- name: Leena AI
-  category: discovered
-  unresolved_streak: 2
-- name: Klarity
-  category: discovered
-  unresolved_streak: 2
 - name: Weekend (fmr. Volley)
   category: discovered
   unresolved_streak: 0
-- name: Nuvocargo
-  category: discovered
-  unresolved_streak: 2
 - name: Promise
   category: discovered
   unresolved_streak: 0
-- name: Jasper.ai
-  category: discovered
-  unresolved_streak: 2
 - name: AssemblyAI
   category: discovered
   unresolved_streak: 0
@@ -561,24 +453,6 @@ companies:
 - name: VergeSense
   category: discovered
   unresolved_streak: 0
-- name: Veryfi, Inc.
-  category: discovered
-  unresolved_streak: 2
-- name: BeGo
-  category: discovered
-  unresolved_streak: 2
-- name: QueryPie AI
-  category: discovered
-  unresolved_streak: 2
-- name: Datasaur
-  category: discovered
-  unresolved_streak: 2
-- name: People.ai
-  category: discovered
-  unresolved_streak: 2
-- name: Motion
-  category: discovered
-  unresolved_streak: 2
 - name: Miso
   category: discovered
   unresolved_streak: 0
@@ -600,30 +474,12 @@ companies:
 - name: Domu Technology Inc.
   category: discovered
   unresolved_streak: 0
-- name: Superb AI
-  category: discovered
-  unresolved_streak: 2
-- name: Kunduz
-  category: discovered
-  unresolved_streak: 2
-- name: Numerion Labs
-  category: discovered
-  unresolved_streak: 2
 - name: Verge Genomics
   category: discovered
   unresolved_streak: 0
-- name: ShipBlu
-  category: discovered
-  unresolved_streak: 2
-- name: Standard AI
-  category: discovered
-  unresolved_streak: 2
 - name: Relativity Space
   category: discovered
   unresolved_streak: 0
-- name: Clinikally
-  category: discovered
-  unresolved_streak: 2
 - name: Revivn
   category: discovered
   unresolved_streak: 0
@@ -633,27 +489,45 @@ companies:
 - name: Dscout
   category: discovered
   unresolved_streak: 0
-- name: GoodRx
-  category: discovered
-  unresolved_streak: 2
-- name: Nourish
-  category: discovered
-  unresolved_streak: 2
-- name: Northslope
-  category: discovered
-  unresolved_streak: 2
 - name: Marble Health
   category: discovered
   unresolved_streak: 0
-- name: Teragonia
-  category: discovered
-  unresolved_streak: 2
-- name: Tapestry - Coach and Kate Spade
-  category: discovered
-  unresolved_streak: 2
 - name: Yext
   category: discovered
   unresolved_streak: 0
 - name: Retell AI
   category: discovered
   unresolved_streak: 0
+- name: ProjectX
+  category: discovered
+  unresolved_streak: 1
+- name: Zocdoc
+  category: discovered
+  unresolved_streak: 0
+- name: Standard Template Labs
+  category: discovered
+  unresolved_streak: 1
+- name: Attio
+  category: discovered
+  unresolved_streak: 0
+- name: ZS
+  category: discovered
+  unresolved_streak: 1
+- name: Fluent, Inc.
+  category: discovered
+  unresolved_streak: 1
+- name: Sailor Health
+  category: discovered
+  unresolved_streak: 0
+- name: Regal
+  category: discovered
+  unresolved_streak: 1
+- name: M13
+  category: discovered
+  unresolved_streak: 0
+- name: Citadel
+  category: discovered
+  unresolved_streak: 1
+- name: Particle Health
+  category: discovered
+  unresolved_streak: 1
