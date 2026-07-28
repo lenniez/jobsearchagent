@@ -1,4 +1,10 @@
 resolved:
+  360learning:
+    ats_type: lever
+    display_name: 360Learning
+    resolved_at: '2026-07-28'
+    slug: 360learning
+    source: auto
   abridge:
     ats_type: ashby
     display_name: Abridge
@@ -65,6 +71,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: apolloio
     source: auto
+  artisan:
+    ats_type: ashby
+    display_name: Artisan
+    resolved_at: '2026-07-28'
+    slug: artisan
+    source: auto
   ashby:
     ats_type: ashby
     display_name: Ashby
@@ -130,6 +142,12 @@ resolved:
     display_name: Braze
     resolved_at: '2026-07-21'
     slug: braze
+    source: auto
+  broccoli ai:
+    ats_type: ashby
+    display_name: Broccoli AI
+    resolved_at: '2026-07-28'
+    slug: broccoli
     source: auto
   calendly:
     ats_type: greenhouse
@@ -382,6 +400,12 @@ resolved:
     display_name: Harvey
     resolved_at: '2026-07-21'
     slug: harvey
+    source: auto
+  headway:
+    ats_type: ashby
+    display_name: Headway
+    resolved_at: '2026-07-28'
+    slug: headway
     source: auto
   hex:
     ats_type: ashby
@@ -791,6 +815,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: runway
     source: auto
+  sage:
+    ats_type: greenhouse
+    display_name: Sage
+    resolved_at: '2026-07-28'
+    slug: sage
+    source: auto
   sailor health:
     ats_type: ashby
     display_name: Sailor Health
@@ -1119,3 +1149,7 @@ unresolved:
 - regal
 - citadel
 - particle health
+- pwc
+- citadel securities
+- fora
+- partyslate

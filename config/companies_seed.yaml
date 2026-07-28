@@ -500,34 +500,205 @@ companies:
   unresolved_streak: 0
 - name: ProjectX
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Zocdoc
   category: discovered
   unresolved_streak: 0
 - name: Standard Template Labs
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Attio
   category: discovered
   unresolved_streak: 0
 - name: ZS
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Fluent, Inc.
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Sailor Health
   category: discovered
   unresolved_streak: 0
 - name: Regal
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: M13
   category: discovered
   unresolved_streak: 0
 - name: Citadel
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Particle Health
   category: discovered
+  unresolved_streak: 2
+- name: Go1
+  category: discovered
   unresolved_streak: 1
+- name: GrubMarket
+  category: discovered
+  unresolved_streak: 1
+- name: Nowports
+  category: discovered
+  unresolved_streak: 1
+- name: ShipBob
+  category: discovered
+  unresolved_streak: 1
+- name: Daily
+  category: discovered
+  unresolved_streak: 1
+- name: Mason
+  category: discovered
+  unresolved_streak: 1
+- name: GetAccept
+  category: discovered
+  unresolved_streak: 1
+- name: Chatfuel
+  category: discovered
+  unresolved_streak: 1
+- name: Fountain
+  category: discovered
+  unresolved_streak: 1
+- name: Zeplin
+  category: discovered
+  unresolved_streak: 1
+- name: Platzi
+  category: discovered
+  unresolved_streak: 1
+- name: OneSignal
+  category: discovered
+  unresolved_streak: 1
+- name: Mezmo
+  category: discovered
+  unresolved_streak: 1
+- name: Front
+  category: discovered
+  unresolved_streak: 1
+- name: Povio
+  category: discovered
+  unresolved_streak: 1
+- name: Ambition
+  category: discovered
+  unresolved_streak: 1
+- name: Cratejoy
+  category: discovered
+  unresolved_streak: 1
+- name: EasyPost
+  category: discovered
+  unresolved_streak: 1
+- name: Strikingly
+  category: discovered
+  unresolved_streak: 1
+- name: Upwave
+  category: discovered
+  unresolved_streak: 1
+- name: throxy
+  category: discovered
+  unresolved_streak: 1
+- name: Zeitview
+  category: discovered
+  unresolved_streak: 1
+- name: Model ML
+  category: discovered
+  unresolved_streak: 1
+- name: Artisan
+  category: discovered
+  unresolved_streak: 0
+- name: Fetii
+  category: discovered
+  unresolved_streak: 1
+- name: Humand
+  category: discovered
+  unresolved_streak: 1
+- name: IoTFlows Inc
+  category: discovered
+  unresolved_streak: 1
+- name: Broccoli AI
+  category: discovered
+  unresolved_streak: 0
+- name: Verihubs
+  category: discovered
+  unresolved_streak: 1
+- name: Anakin
+  category: discovered
+  unresolved_streak: 1
+- name: Swipe
+  category: discovered
+  unresolved_streak: 1
+- name: Treinta
+  category: discovered
+  unresolved_streak: 1
+- name: Rinsed
+  category: discovered
+  unresolved_streak: 1
+- name: Mindee
+  category: discovered
+  unresolved_streak: 1
+- name: Leena AI
+  category: discovered
+  unresolved_streak: 1
+- name: Klarity
+  category: discovered
+  unresolved_streak: 1
+- name: Nuvocargo
+  category: discovered
+  unresolved_streak: 1
+- name: Jasper.ai
+  category: discovered
+  unresolved_streak: 1
+- name: Veryfi, Inc.
+  category: discovered
+  unresolved_streak: 1
+- name: BeGo
+  category: discovered
+  unresolved_streak: 1
+- name: QueryPie AI
+  category: discovered
+  unresolved_streak: 1
+- name: People.ai
+  category: discovered
+  unresolved_streak: 1
+- name: Motion
+  category: discovered
+  unresolved_streak: 1
+- name: Superb AI
+  category: discovered
+  unresolved_streak: 1
+- name: Kunduz
+  category: discovered
+  unresolved_streak: 1
+- name: Numerion Labs
+  category: discovered
+  unresolved_streak: 1
+- name: ShipBlu
+  category: discovered
+  unresolved_streak: 1
+- name: Standard AI
+  category: discovered
+  unresolved_streak: 1
+- name: Clinikally
+  category: discovered
+  unresolved_streak: 1
+- name: PwC
+  category: discovered
+  unresolved_streak: 1
+- name: Headway
+  category: discovered
+  unresolved_streak: 0
+- name: Citadel Securities
+  category: discovered
+  unresolved_streak: 1
+- name: Tapestry - Coach and Kate Spade
+  category: discovered
+  unresolved_streak: 1
+- name: Fora
+  category: discovered
+  unresolved_streak: 1
+- name: PartySlate
+  category: discovered
+  unresolved_streak: 1
+- name: 360Learning
+  category: discovered
+  unresolved_streak: 0
+- name: Sage
+  category: discovered
+  unresolved_streak: 0
