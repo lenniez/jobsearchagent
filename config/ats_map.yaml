@@ -323,6 +323,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: fivetran
     source: auto
+  flatfile:
+    ats_type: lever
+    display_name: Flatfile
+    resolved_at: '2026-07-31'
+    slug: flatfile
+    source: auto
   flatiron health:
     ats_type: greenhouse
     display_name: Flatiron Health
@@ -677,6 +683,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: pagerduty
     source: auto
+  patientpoint:
+    ats_type: greenhouse
+    display_name: PatientPoint
+    resolved_at: '2026-07-31'
+    slug: patientpoint
+    source: auto
   pendo:
     ats_type: greenhouse
     display_name: Pendo
@@ -694,6 +706,12 @@ resolved:
     display_name: Perplexity
     resolved_at: '2026-07-21'
     slug: perplexity
+    source: auto
+  philo:
+    ats_type: greenhouse
+    display_name: Philo
+    resolved_at: '2026-07-31'
+    slug: philo
     source: auto
   pinecone:
     ats_type: ashby
@@ -808,6 +826,18 @@ resolved:
     display_name: Revivn
     resolved_at: '2026-07-21'
     slug: revivn
+    source: auto
+  rtb house:
+    ats_type: greenhouse
+    display_name: RTB House
+    resolved_at: '2026-07-31'
+    slug: rtbhouse
+    source: auto
+  rubrik:
+    ats_type: greenhouse
+    display_name: Rubrik
+    resolved_at: '2026-07-31'
+    slug: rubrik
     source: auto
   runway:
     ats_type: ashby
@@ -1153,3 +1183,6 @@ unresolved:
 - citadel securities
 - fora
 - partyslate
+- teachable
+- the farmer's dog
+- templafy
