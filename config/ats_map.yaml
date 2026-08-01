@@ -317,6 +317,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: figma
     source: auto
+  firsthand health inc:
+    ats_type: greenhouse
+    display_name: firsthand Health Inc
+    resolved_at: '2026-08-01'
+    slug: firsthand
+    source: auto
   fivetran:
     ats_type: greenhouse
     display_name: Fivetran
@@ -358,6 +364,12 @@ resolved:
     display_name: Focal Systems
     resolved_at: '2026-07-21'
     slug: focalsystems
+    source: auto
+  formation bio:
+    ats_type: greenhouse
+    display_name: Formation Bio
+    resolved_at: '2026-08-01'
+    slug: formationbio
     source: auto
   gecko robotics:
     ats_type: ashby
@@ -695,6 +707,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: pendo
     source: auto
+  perchwell:
+    ats_type: ashby
+    display_name: Perchwell
+    resolved_at: '2026-08-01'
+    slug: perchwell
+    source: auto
   permutive:
     ats_type: ashby
     display_name: Permutive
@@ -929,11 +947,23 @@ resolved:
     resolved_at: '2026-07-21'
     slug: superside
     source: auto
+  taboola:
+    ats_type: greenhouse
+    display_name: Taboola
+    resolved_at: '2026-08-01'
+    slug: taboola
+    source: auto
   taktile:
     ats_type: ashby
     display_name: Taktile
     resolved_at: '2026-07-21'
     slug: taktile
+    source: auto
+  taskrabbit:
+    ats_type: greenhouse
+    display_name: Taskrabbit
+    resolved_at: '2026-08-01'
+    slug: taskrabbit
     source: auto
   teleport:
     ats_type: lever
@@ -958,6 +988,12 @@ resolved:
     display_name: Together AI
     resolved_at: '2026-07-21'
     slug: togetherai
+    source: auto
+  topline pro:
+    ats_type: ashby
+    display_name: Topline Pro
+    resolved_at: '2026-08-01'
+    slug: topline-pro
     source: auto
   tractable:
     ats_type: ashby
@@ -1066,6 +1102,12 @@ resolved:
     display_name: Zapier
     resolved_at: '2026-07-21'
     slug: zapier
+    source: auto
+  zeta global:
+    ats_type: greenhouse
+    display_name: Zeta Global
+    resolved_at: '2026-08-01'
+    slug: zetaglobal
     source: auto
   zocdoc:
     ats_type: greenhouse
@@ -1186,3 +1228,5 @@ unresolved:
 - teachable
 - the farmer's dog
 - templafy
+- draftkings
+- rethinkfirst
