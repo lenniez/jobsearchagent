@@ -528,21 +528,12 @@ companies:
 - name: RTB House
   category: discovered
   unresolved_streak: 0
-- name: Teachable
-  category: discovered
-  unresolved_streak: 2
 - name: PatientPoint
   category: discovered
   unresolved_streak: 0
 - name: Rubrik
   category: discovered
   unresolved_streak: 0
-- name: The Farmer's Dog
-  category: discovered
-  unresolved_streak: 2
-- name: Templafy
-  category: discovered
-  unresolved_streak: 2
 - name: Philo
   category: discovered
   unresolved_streak: 0
@@ -554,7 +545,7 @@ companies:
   unresolved_streak: 0
 - name: DraftKings
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Taskrabbit
   category: discovered
   unresolved_streak: 0
@@ -563,7 +554,7 @@ companies:
   unresolved_streak: 0
 - name: RethinkFirst
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Zeta Global
   category: discovered
   unresolved_streak: 0
@@ -576,3 +567,177 @@ companies:
 - name: Taboola
   category: discovered
   unresolved_streak: 0
+- name: Go1
+  category: discovered
+  unresolved_streak: 1
+- name: GrubMarket
+  category: discovered
+  unresolved_streak: 1
+- name: Nowports
+  category: discovered
+  unresolved_streak: 1
+- name: ShipBob
+  category: discovered
+  unresolved_streak: 1
+- name: Daily
+  category: discovered
+  unresolved_streak: 1
+- name: Mason
+  category: discovered
+  unresolved_streak: 1
+- name: GetAccept
+  category: discovered
+  unresolved_streak: 1
+- name: Chatfuel
+  category: discovered
+  unresolved_streak: 1
+- name: Fountain
+  category: discovered
+  unresolved_streak: 1
+- name: Zeplin
+  category: discovered
+  unresolved_streak: 1
+- name: Platzi
+  category: discovered
+  unresolved_streak: 1
+- name: OneSignal
+  category: discovered
+  unresolved_streak: 1
+- name: Mezmo
+  category: discovered
+  unresolved_streak: 1
+- name: Front
+  category: discovered
+  unresolved_streak: 1
+- name: Povio
+  category: discovered
+  unresolved_streak: 1
+- name: Ambition
+  category: discovered
+  unresolved_streak: 1
+- name: Cratejoy
+  category: discovered
+  unresolved_streak: 1
+- name: EasyPost
+  category: discovered
+  unresolved_streak: 1
+- name: Strikingly
+  category: discovered
+  unresolved_streak: 1
+- name: Upwave
+  category: discovered
+  unresolved_streak: 1
+- name: throxy
+  category: discovered
+  unresolved_streak: 1
+- name: Zeitview
+  category: discovered
+  unresolved_streak: 1
+- name: Model ML
+  category: discovered
+  unresolved_streak: 1
+- name: Fetii
+  category: discovered
+  unresolved_streak: 1
+- name: Humand
+  category: discovered
+  unresolved_streak: 1
+- name: IoTFlows Inc
+  category: discovered
+  unresolved_streak: 1
+- name: Verihubs
+  category: discovered
+  unresolved_streak: 1
+- name: Tavus
+  category: discovered
+  unresolved_streak: 0
+- name: Anakin
+  category: discovered
+  unresolved_streak: 1
+- name: Swipe
+  category: discovered
+  unresolved_streak: 1
+- name: Treinta
+  category: discovered
+  unresolved_streak: 1
+- name: Rinsed
+  category: discovered
+  unresolved_streak: 1
+- name: Mindee
+  category: discovered
+  unresolved_streak: 1
+- name: Leena AI
+  category: discovered
+  unresolved_streak: 1
+- name: Klarity
+  category: discovered
+  unresolved_streak: 1
+- name: Nuvocargo
+  category: discovered
+  unresolved_streak: 1
+- name: Jasper.ai
+  category: discovered
+  unresolved_streak: 1
+- name: Veryfi, Inc.
+  category: discovered
+  unresolved_streak: 1
+- name: BeGo
+  category: discovered
+  unresolved_streak: 1
+- name: QueryPie AI
+  category: discovered
+  unresolved_streak: 1
+- name: People.ai
+  category: discovered
+  unresolved_streak: 1
+- name: Motion
+  category: discovered
+  unresolved_streak: 1
+- name: Superb AI
+  category: discovered
+  unresolved_streak: 1
+- name: Kunduz
+  category: discovered
+  unresolved_streak: 1
+- name: Numerion Labs
+  category: discovered
+  unresolved_streak: 1
+- name: ShipBlu
+  category: discovered
+  unresolved_streak: 1
+- name: Standard AI
+  category: discovered
+  unresolved_streak: 1
+- name: Clinikally
+  category: discovered
+  unresolved_streak: 1
+- name: GameChanger
+  category: discovered
+  unresolved_streak: 0
+- name: Comcast
+  category: discovered
+  unresolved_streak: 1
+- name: Qualtrics
+  category: discovered
+  unresolved_streak: 0
+- name: Pfizer
+  category: discovered
+  unresolved_streak: 1
+- name: Altana
+  category: discovered
+  unresolved_streak: 1
+- name: EliseAI
+  category: discovered
+  unresolved_streak: 0
+- name: Share Local Media
+  category: discovered
+  unresolved_streak: 0
+- name: Mirakl
+  category: discovered
+  unresolved_streak: 0
+- name: GoodRx
+  category: discovered
+  unresolved_streak: 1
+- name: Citadel Securities
+  category: discovered
+  unresolved_streak: 1

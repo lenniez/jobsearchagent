@@ -299,6 +299,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: elevenlabs
     source: auto
+  eliseai:
+    ats_type: ashby
+    display_name: EliseAI
+    resolved_at: '2026-08-04'
+    slug: eliseai
+    source: auto
   embrace:
     ats_type: greenhouse
     display_name: Embrace
@@ -370,6 +376,12 @@ resolved:
     display_name: Formation Bio
     resolved_at: '2026-08-01'
     slug: formationbio
+    source: auto
+  gamechanger:
+    ats_type: ashby
+    display_name: GameChanger
+    resolved_at: '2026-08-04'
+    slug: gamechanger
     source: auto
   gecko robotics:
     ats_type: ashby
@@ -605,6 +617,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: metabase
     source: auto
+  mirakl:
+    ats_type: greenhouse
+    display_name: Mirakl
+    resolved_at: '2026-08-04'
+    slug: mirakl
+    source: auto
   miro:
     ats_type: ashby
     display_name: Miro
@@ -785,6 +803,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: protocol
     source: auto
+  qualtrics:
+    ats_type: greenhouse
+    display_name: Qualtrics
+    resolved_at: '2026-08-04'
+    slug: qualtrics
+    source: auto
   qventus:
     ats_type: greenhouse
     display_name: Qventus
@@ -893,6 +917,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: sendbird
     source: auto
+  share local media:
+    ats_type: ashby
+    display_name: Share Local Media
+    resolved_at: '2026-08-04'
+    slug: share
+    source: auto
   sierra:
     ats_type: ashby
     display_name: Sierra
@@ -964,6 +994,12 @@ resolved:
     display_name: Taskrabbit
     resolved_at: '2026-08-01'
     slug: taskrabbit
+    source: auto
+  tavus:
+    ats_type: ashby
+    display_name: Tavus
+    resolved_at: '2026-08-04'
+    slug: tavus
     source: auto
   teleport:
     ats_type: lever
@@ -1230,3 +1266,6 @@ unresolved:
 - templafy
 - draftkings
 - rethinkfirst
+- comcast
+- pfizer
+- altana
