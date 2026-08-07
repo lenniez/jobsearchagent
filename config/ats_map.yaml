@@ -23,6 +23,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: airtable
     source: auto
+  akasa:
+    ats_type: ashby
+    display_name: AKASA
+    resolved_at: '2026-08-07'
+    slug: akasa
+    source: auto
   akido labs:
     ats_type: greenhouse
     display_name: Akido Labs
@@ -70,6 +76,12 @@ resolved:
     display_name: Apollo.io
     resolved_at: '2026-07-21'
     slug: apolloio
+    source: auto
+  applecart:
+    ats_type: greenhouse
+    display_name: Applecart
+    resolved_at: '2026-08-07'
+    slug: applecart
     source: auto
   artisan:
     ats_type: ashby
@@ -412,6 +424,12 @@ resolved:
     display_name: Greenhouse
     resolved_at: '2026-07-21'
     slug: greenhouse
+    source: auto
+  gumgum:
+    ats_type: greenhouse
+    display_name: GumGum
+    resolved_at: '2026-08-07'
+    slug: gumgum
     source: auto
   gusto:
     ats_type: greenhouse
@@ -887,6 +905,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: runway
     source: auto
+  runwise:
+    ats_type: greenhouse
+    display_name: Runwise
+    resolved_at: '2026-08-07'
+    slug: runwise
+    source: auto
   sage:
     ats_type: greenhouse
     display_name: Sage
@@ -1079,6 +1103,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: vergesense
     source: auto
+  vetcove:
+    ats_type: ashby
+    display_name: Vetcove
+    resolved_at: '2026-08-07'
+    slug: vetcove
+    source: auto
   via:
     ats_type: greenhouse
     display_name: Via
@@ -1269,3 +1299,5 @@ unresolved:
 - comcast
 - pfizer
 - altana
+- within
+- hinge
