@@ -11,6 +11,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: abridge
     source: auto
+  agentio:
+    ats_type: ashby
+    display_name: Agentio
+    resolved_at: '2026-08-10'
+    slug: agentio
+    source: auto
   airbyte:
     ats_type: ashby
     display_name: Airbyte
@@ -328,6 +334,12 @@ resolved:
     display_name: Faire
     resolved_at: '2026-07-21'
     slug: faire
+    source: auto
+  fieldguide:
+    ats_type: ashby
+    display_name: Fieldguide
+    resolved_at: '2026-08-10'
+    slug: fieldguide
     source: auto
   figma:
     ats_type: greenhouse
@@ -1301,3 +1313,6 @@ unresolved:
 - altana
 - within
 - hinge
+- smartly
+- fairly even
+- magnite
