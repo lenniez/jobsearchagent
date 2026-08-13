@@ -191,6 +191,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: clari
     source: auto
+  click therapeutics:
+    ats_type: greenhouse
+    display_name: Click Therapeutics
+    resolved_at: '2026-08-13'
+    slug: clicktherapeutics
+    source: auto
   cognition:
     ats_type: ashby
     display_name: Cognition
@@ -538,6 +544,12 @@ resolved:
     display_name: Komodo Health
     resolved_at: '2026-07-21'
     slug: komodohealth
+    source: auto
+  kustomer:
+    ats_type: ashby
+    display_name: Kustomer
+    resolved_at: '2026-08-13'
+    slug: kustomer
     source: auto
   labelbox:
     ats_type: greenhouse
@@ -898,6 +910,12 @@ resolved:
     display_name: Revivn
     resolved_at: '2026-07-21'
     slug: revivn
+    source: auto
+  rockstar games:
+    ats_type: greenhouse
+    display_name: Rockstar Games
+    resolved_at: '2026-08-13'
+    slug: rockstargames
     source: auto
   rtb house:
     ats_type: greenhouse
@@ -1316,3 +1334,4 @@ unresolved:
 - smartly
 - fairly even
 - magnite
+- tastewise
