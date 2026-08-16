@@ -503,6 +503,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: humaninterest
     source: auto
+  huntress:
+    ats_type: greenhouse
+    display_name: Huntress
+    resolved_at: '2026-08-16'
+    slug: huntress
+    source: auto
   influxdata:
     ats_type: ashby
     display_name: InfluxData
@@ -1335,3 +1341,7 @@ unresolved:
 - fairly even
 - magnite
 - tastewise
+- "mondel\u0113z international"
+- hibob
+- admarketplace
+- whatnot
