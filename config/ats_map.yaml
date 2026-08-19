@@ -233,6 +233,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: conveo
     source: auto
+  copia automation:
+    ats_type: lever
+    display_name: Copia Automation
+    resolved_at: '2026-08-19'
+    slug: copia
+    source: auto
   coursera:
     ats_type: greenhouse
     display_name: Coursera
@@ -1345,3 +1351,4 @@ unresolved:
 - hibob
 - admarketplace
 - whatnot
+- monday.com
