@@ -449,6 +449,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: greenhouse
     source: auto
+  grow therapy:
+    ats_type: ashby
+    display_name: Grow Therapy
+    resolved_at: '2026-08-22'
+    slug: grow-therapy
+    source: auto
   gumgum:
     ats_type: greenhouse
     display_name: GumGum
@@ -532,6 +538,12 @@ resolved:
     display_name: Intercom
     resolved_at: '2026-07-21'
     slug: intercom
+    source: auto
+  intersystems:
+    ats_type: greenhouse
+    display_name: InterSystems
+    resolved_at: '2026-08-22'
+    slug: intersystems
     source: auto
   iterable:
     ats_type: greenhouse
@@ -1352,3 +1364,5 @@ unresolved:
 - admarketplace
 - whatnot
 - monday.com
+- ul solutions
+- ericsson
