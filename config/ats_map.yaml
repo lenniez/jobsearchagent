@@ -485,6 +485,12 @@ resolved:
     resolved_at: '2026-07-28'
     slug: headway
     source: auto
+  hedra:
+    ats_type: ashby
+    display_name: Hedra
+    resolved_at: '2026-08-25'
+    slug: hedra
+    source: auto
   hex:
     ats_type: ashby
     display_name: Hex
@@ -1013,6 +1019,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: snowflake
     source: auto
+  spiral:
+    ats_type: ashby
+    display_name: Spiral
+    resolved_at: '2026-08-25'
+    slug: spiral
+    source: auto
   spotify:
     ats_type: lever
     display_name: Spotify
@@ -1366,3 +1378,5 @@ unresolved:
 - monday.com
 - ul solutions
 - ericsson
+- rokt
+- enverus
