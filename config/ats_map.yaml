@@ -527,6 +527,12 @@ resolved:
     resolved_at: '2026-08-16'
     slug: huntress
     source: auto
+  inato:
+    ats_type: ashby
+    display_name: Inato
+    resolved_at: '2026-08-28'
+    slug: inato
+    source: auto
   influxdata:
     ats_type: ashby
     display_name: InfluxData
@@ -941,6 +947,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: revivn
     source: auto
+  ro (ro.co):
+    ats_type: lever
+    display_name: Ro (Ro.co)
+    resolved_at: '2026-08-28'
+    slug: ro
+    source: auto
   rockstar games:
     ats_type: greenhouse
     display_name: Rockstar Games
@@ -1126,6 +1138,12 @@ resolved:
     display_name: Tractable
     resolved_at: '2026-07-21'
     slug: tractable
+    source: auto
+  treeswift:
+    ats_type: ashby
+    display_name: Treeswift
+    resolved_at: '2026-08-28'
+    slug: treeswift
     source: auto
   truveta:
     ats_type: greenhouse
@@ -1380,3 +1398,5 @@ unresolved:
 - ericsson
 - rokt
 - enverus
+- spott
+- tempus ai
