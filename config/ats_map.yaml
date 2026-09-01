@@ -251,6 +251,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: cribl
     source: auto
+  crunchyroll:
+    ats_type: greenhouse
+    display_name: Crunchyroll
+    resolved_at: '2026-09-01'
+    slug: crunchyroll
+    source: auto
   culture amp:
     ats_type: greenhouse
     display_name: Culture Amp
@@ -538,6 +544,12 @@ resolved:
     display_name: InfluxData
     resolved_at: '2026-07-21'
     slug: influxdata
+    source: auto
+  inspiren:
+    ats_type: ashby
+    display_name: Inspiren
+    resolved_at: '2026-09-01'
+    slug: inspiren
     source: auto
   instawork:
     ats_type: greenhouse
@@ -1400,3 +1412,4 @@ unresolved:
 - enverus
 - spott
 - tempus ai
+- sharkninja
