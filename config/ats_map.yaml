@@ -1049,6 +1049,12 @@ resolved:
     resolved_at: '2026-08-25'
     slug: spiral
     source: auto
+  spot & tango:
+    ats_type: greenhouse
+    display_name: Spot & Tango
+    resolved_at: '2026-09-04'
+    slug: spotandtango
+    source: auto
   spotify:
     ats_type: lever
     display_name: Spotify
@@ -1413,3 +1419,4 @@ unresolved:
 - spott
 - tempus ai
 - sharkninja
+- superhuman
