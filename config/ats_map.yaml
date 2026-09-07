@@ -155,6 +155,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: bitmovin
     source: auto
+  brainpop:
+    ats_type: greenhouse
+    display_name: BrainPOP
+    resolved_at: '2026-09-07'
+    slug: brainpop
+    source: auto
   braze:
     ats_type: greenhouse
     display_name: Braze
@@ -634,6 +640,12 @@ resolved:
     display_name: Legora
     resolved_at: '2026-07-21'
     slug: legora
+    source: auto
+  liftoff:
+    ats_type: greenhouse
+    display_name: Liftoff
+    resolved_at: '2026-09-07'
+    slug: liftoff
     source: auto
   linear:
     ats_type: ashby
@@ -1420,3 +1432,4 @@ unresolved:
 - tempus ai
 - sharkninja
 - superhuman
+- eden
