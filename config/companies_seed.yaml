@@ -651,36 +651,30 @@ companies:
 - name: Liftoff
   category: discovered
   unresolved_streak: 0
-- name: Within
-  category: discovered
-  unresolved_streak: 2
-- name: Mondelēz International
-  category: discovered
-  unresolved_streak: 2
-- name: Teachable
-  category: discovered
-  unresolved_streak: 2
-- name: Citadel
-  category: discovered
-  unresolved_streak: 2
-- name: Altana
-  category: discovered
-  unresolved_streak: 2
-- name: Collectors
-  category: discovered
-  unresolved_streak: 2
-- name: Take-Two Interactive Software
-  category: discovered
-  unresolved_streak: 2
 - name: Snap Inc.
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: WorkWhile
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Tastewise
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Northslope
+  category: discovered
+  unresolved_streak: 2
+- name: Realtor.com
+  category: discovered
+  unresolved_streak: 1
+- name: Blee
+  category: discovered
+  unresolved_streak: 0
+- name: SharkNinja
+  category: discovered
+  unresolved_streak: 1
+- name: Tapestry - Coach and Kate Spade
+  category: discovered
+  unresolved_streak: 1
+- name: PartySlate
   category: discovered
   unresolved_streak: 1
