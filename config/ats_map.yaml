@@ -191,6 +191,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: cambio
     source: auto
+  celonis:
+    ats_type: greenhouse
+    display_name: Celonis
+    resolved_at: '2026-09-19'
+    slug: celonis
+    source: auto
   checkr:
     ats_type: greenhouse
     display_name: Checkr
