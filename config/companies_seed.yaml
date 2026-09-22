@@ -651,27 +651,27 @@ companies:
 - name: Liftoff
   category: discovered
   unresolved_streak: 0
-- name: Realtor.com
-  category: discovered
-  unresolved_streak: 2
 - name: Blee
   category: discovered
   unresolved_streak: 0
-- name: SharkNinja
-  category: discovered
-  unresolved_streak: 2
-- name: Tapestry - Coach and Kate Spade
-  category: discovered
-  unresolved_streak: 2
-- name: PartySlate
-  category: discovered
-  unresolved_streak: 2
 - name: Rokt
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Celonis
   category: discovered
   unresolved_streak: 0
 - name: monday.com
+  category: discovered
+  unresolved_streak: 2
+- name: Altana
+  category: discovered
+  unresolved_streak: 1
+- name: Nourish
+  category: discovered
+  unresolved_streak: 1
+- name: Garner Health
+  category: discovered
+  unresolved_streak: 0
+- name: Pfizer
   category: discovered
   unresolved_streak: 1

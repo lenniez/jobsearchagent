@@ -443,6 +443,12 @@ resolved:
     resolved_at: '2026-08-04'
     slug: gamechanger
     source: auto
+  garner health:
+    ats_type: greenhouse
+    display_name: Garner Health
+    resolved_at: '2026-09-22'
+    slug: garnerhealth
+    source: auto
   gecko robotics:
     ats_type: ashby
     display_name: Gecko Robotics
