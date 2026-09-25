@@ -125,6 +125,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: atomicindustries
     source: auto
+  attain:
+    ats_type: greenhouse
+    display_name: Attain
+    resolved_at: '2026-09-25'
+    slug: attain
+    source: auto
   attentive:
     ats_type: greenhouse
     display_name: Attentive
@@ -557,6 +563,12 @@ resolved:
     resolved_at: '2026-08-16'
     slug: huntress
     source: auto
+  hyperexponential:
+    ats_type: ashby
+    display_name: hyperexponential
+    resolved_at: '2026-09-25'
+    slug: hyperexponential
+    source: auto
   inato:
     ats_type: ashby
     display_name: Inato
@@ -682,6 +694,12 @@ resolved:
     display_name: Loom
     resolved_at: '2026-07-21'
     slug: loom
+    source: auto
+  ltx:
+    ats_type: greenhouse
+    display_name: LTX
+    resolved_at: '2026-09-25'
+    slug: ltx
     source: auto
   m13:
     ats_type: ashby
@@ -1456,3 +1474,4 @@ unresolved:
 - snap inc.
 - workwhile
 - realtor.com
+- people inc.

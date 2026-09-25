@@ -654,24 +654,36 @@ companies:
 - name: Blee
   category: discovered
   unresolved_streak: 0
-- name: Rokt
-  category: discovered
-  unresolved_streak: 2
 - name: Celonis
   category: discovered
   unresolved_streak: 0
-- name: monday.com
-  category: discovered
-  unresolved_streak: 2
 - name: Altana
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Nourish
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Garner Health
   category: discovered
   unresolved_streak: 0
 - name: Pfizer
+  category: discovered
+  unresolved_streak: 2
+- name: Enverus
+  category: discovered
+  unresolved_streak: 1
+- name: hyperexponential
+  category: discovered
+  unresolved_streak: 0
+- name: Attain
+  category: discovered
+  unresolved_streak: 0
+- name: LTX
+  category: discovered
+  unresolved_streak: 0
+- name: People Inc.
+  category: discovered
+  unresolved_streak: 1
+- name: Whatnot
   category: discovered
   unresolved_streak: 1
