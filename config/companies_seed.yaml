@@ -657,21 +657,12 @@ companies:
 - name: Celonis
   category: discovered
   unresolved_streak: 0
-- name: Altana
-  category: discovered
-  unresolved_streak: 2
-- name: Nourish
-  category: discovered
-  unresolved_streak: 2
 - name: Garner Health
   category: discovered
   unresolved_streak: 0
-- name: Pfizer
-  category: discovered
-  unresolved_streak: 2
 - name: Enverus
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: hyperexponential
   category: discovered
   unresolved_streak: 0
@@ -683,7 +674,22 @@ companies:
   unresolved_streak: 0
 - name: People Inc.
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Whatnot
+  category: discovered
+  unresolved_streak: 2
+- name: Teachable
+  category: discovered
+  unresolved_streak: 1
+- name: PwC
+  category: discovered
+  unresolved_streak: 1
+- name: Tapestry - Coach and Kate Spade
+  category: discovered
+  unresolved_streak: 1
+- name: The Farmer's Dog
+  category: discovered
+  unresolved_streak: 1
+- name: SharkNinja
   category: discovered
   unresolved_streak: 1
