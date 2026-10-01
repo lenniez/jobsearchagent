@@ -660,9 +660,6 @@ companies:
 - name: Garner Health
   category: discovered
   unresolved_streak: 0
-- name: Enverus
-  category: discovered
-  unresolved_streak: 2
 - name: hyperexponential
   category: discovered
   unresolved_streak: 0
@@ -672,24 +669,33 @@ companies:
 - name: LTX
   category: discovered
   unresolved_streak: 0
-- name: People Inc.
-  category: discovered
-  unresolved_streak: 2
-- name: Whatnot
-  category: discovered
-  unresolved_streak: 2
 - name: Teachable
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: PwC
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Tapestry - Coach and Kate Spade
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: The Farmer's Dog
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: SharkNinja
+  category: discovered
+  unresolved_streak: 2
+- name: Teragonia
+  category: discovered
+  unresolved_streak: 1
+- name: Snap Inc.
+  category: discovered
+  unresolved_streak: 1
+- name: monday.com
+  category: discovered
+  unresolved_streak: 1
+- name: Comcast
+  category: discovered
+  unresolved_streak: 1
+- name: Northslope
   category: discovered
   unresolved_streak: 1
