@@ -461,6 +461,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: gecko-robotics
     source: auto
+  genius sports:
+    ats_type: greenhouse
+    display_name: Genius Sports
+    resolved_at: '2026-10-04'
+    slug: geniussports
+    source: auto
   gitlab:
     ats_type: greenhouse
     display_name: GitLab
@@ -922,6 +928,12 @@ resolved:
     display_name: Popl
     resolved_at: '2026-07-21'
     slug: popl
+    source: auto
+  posh:
+    ats_type: ashby
+    display_name: Posh
+    resolved_at: '2026-10-04'
+    slug: posh
     source: auto
   postman:
     ats_type: greenhouse

@@ -669,33 +669,33 @@ companies:
 - name: LTX
   category: discovered
   unresolved_streak: 0
-- name: Teachable
-  category: discovered
-  unresolved_streak: 2
-- name: PwC
-  category: discovered
-  unresolved_streak: 2
-- name: Tapestry - Coach and Kate Spade
-  category: discovered
-  unresolved_streak: 2
-- name: The Farmer's Dog
-  category: discovered
-  unresolved_streak: 2
-- name: SharkNinja
-  category: discovered
-  unresolved_streak: 2
 - name: Teragonia
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Snap Inc.
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: monday.com
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Comcast
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Northslope
+  category: discovered
+  unresolved_streak: 2
+- name: Posh
+  category: discovered
+  unresolved_streak: 0
+- name: Fora
+  category: discovered
+  unresolved_streak: 1
+- name: Genius Sports
+  category: discovered
+  unresolved_streak: 0
+- name: Fairly Even
+  category: discovered
+  unresolved_streak: 1
+- name: GoodRx
   category: discovered
   unresolved_streak: 1
