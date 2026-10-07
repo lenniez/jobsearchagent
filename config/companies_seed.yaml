@@ -669,33 +669,30 @@ companies:
 - name: LTX
   category: discovered
   unresolved_streak: 0
-- name: Teragonia
-  category: discovered
-  unresolved_streak: 2
-- name: Snap Inc.
-  category: discovered
-  unresolved_streak: 2
-- name: monday.com
-  category: discovered
-  unresolved_streak: 2
-- name: Comcast
-  category: discovered
-  unresolved_streak: 2
-- name: Northslope
-  category: discovered
-  unresolved_streak: 2
 - name: Posh
   category: discovered
   unresolved_streak: 0
 - name: Fora
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Genius Sports
   category: discovered
   unresolved_streak: 0
 - name: Fairly Even
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: GoodRx
+  category: discovered
+  unresolved_streak: 2
+- name: adMarketplace
+  category: discovered
+  unresolved_streak: 1
+- name: Superhuman
+  category: discovered
+  unresolved_streak: 1
+- name: DISQO
+  category: discovered
+  unresolved_streak: 0
+- name: HiBob
   category: discovered
   unresolved_streak: 1

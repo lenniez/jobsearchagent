@@ -329,6 +329,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: discord
     source: auto
+  disqo:
+    ats_type: lever
+    display_name: DISQO
+    resolved_at: '2026-10-07'
+    slug: disqo
+    source: auto
   domu technology inc.:
     ats_type: ashby
     display_name: Domu Technology Inc.
