@@ -672,27 +672,36 @@ companies:
 - name: Posh
   category: discovered
   unresolved_streak: 0
-- name: Fora
-  category: discovered
-  unresolved_streak: 2
 - name: Genius Sports
   category: discovered
   unresolved_streak: 0
-- name: Fairly Even
-  category: discovered
-  unresolved_streak: 2
-- name: GoodRx
-  category: discovered
-  unresolved_streak: 2
 - name: adMarketplace
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Superhuman
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: DISQO
   category: discovered
   unresolved_streak: 0
 - name: HiBob
+  category: discovered
+  unresolved_streak: 2
+- name: Tapestry - Coach and Kate Spade
+  category: discovered
+  unresolved_streak: 1
+- name: Nourish
+  category: discovered
+  unresolved_streak: 1
+- name: Pfizer
+  category: discovered
+  unresolved_streak: 1
+- name: DraftKings
+  category: discovered
+  unresolved_streak: 1
+- name: Intenseye
+  category: discovered
+  unresolved_streak: 0
+- name: Teragonia
   category: discovered
   unresolved_streak: 1

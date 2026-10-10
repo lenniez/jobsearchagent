@@ -605,6 +605,12 @@ resolved:
     resolved_at: '2026-07-21'
     slug: instawork
     source: auto
+  intenseye:
+    ats_type: lever
+    display_name: Intenseye
+    resolved_at: '2026-10-10'
+    slug: intenseye
+    source: auto
   intercom:
     ats_type: greenhouse
     display_name: Intercom
