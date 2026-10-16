@@ -678,33 +678,27 @@ companies:
 - name: DISQO
   category: discovered
   unresolved_streak: 0
-- name: Tapestry - Coach and Kate Spade
-  category: discovered
-  unresolved_streak: 2
-- name: Nourish
-  category: discovered
-  unresolved_streak: 2
-- name: Pfizer
-  category: discovered
-  unresolved_streak: 2
-- name: DraftKings
-  category: discovered
-  unresolved_streak: 2
 - name: Intenseye
   category: discovered
   unresolved_streak: 0
-- name: Teragonia
-  category: discovered
-  unresolved_streak: 2
 - name: Teachable
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Citadel
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Mariner Wealth Advisors
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Snap Inc.
+  category: discovered
+  unresolved_streak: 2
+- name: Hinge
+  category: discovered
+  unresolved_streak: 1
+- name: Fairly Even
+  category: discovered
+  unresolved_streak: 1
+- name: Whatnot
   category: discovered
   unresolved_streak: 1
