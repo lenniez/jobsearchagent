@@ -681,24 +681,21 @@ companies:
 - name: Intenseye
   category: discovered
   unresolved_streak: 0
-- name: Teachable
-  category: discovered
-  unresolved_streak: 2
-- name: Citadel
-  category: discovered
-  unresolved_streak: 2
-- name: Mariner Wealth Advisors
-  category: discovered
-  unresolved_streak: 2
-- name: Snap Inc.
-  category: discovered
-  unresolved_streak: 2
 - name: Hinge
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Fairly Even
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Whatnot
+  category: discovered
+  unresolved_streak: 2
+- name: Realtor.com
+  category: discovered
+  unresolved_streak: 1
+- name: SharkNinja
+  category: discovered
+  unresolved_streak: 1
+- name: Smartly
   category: discovered
   unresolved_streak: 1
