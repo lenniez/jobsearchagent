@@ -681,36 +681,24 @@ companies:
 - name: Intenseye
   category: discovered
   unresolved_streak: 0
-- name: Tapestry - Coach and Kate Spade
-  category: discovered
-  unresolved_streak: 2
-- name: DraftKings
-  category: discovered
-  unresolved_streak: 2
-- name: Take-Two Interactive Software
-  category: discovered
-  unresolved_streak: 2
-- name: DoorDash
-  category: discovered
-  unresolved_streak: 2
-- name: Superhuman
-  category: discovered
-  unresolved_streak: 2
 - name: PwC
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Hewlett Packard Enterprise
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: monday.com
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Snap Inc.
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Mariner Wealth Advisors
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Nourish
+  category: discovered
+  unresolved_streak: 2
+- name: VCA Animal Hospitals
   category: discovered
   unresolved_streak: 1
