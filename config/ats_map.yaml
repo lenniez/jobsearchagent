@@ -263,6 +263,12 @@ resolved:
     resolved_at: '2026-08-19'
     slug: copia
     source: auto
+  coreweave:
+    ats_type: greenhouse
+    display_name: CoreWeave
+    resolved_at: '2026-10-31'
+    slug: coreweave
+    source: auto
   coursera:
     ats_type: greenhouse
     display_name: Coursera
@@ -844,6 +850,12 @@ resolved:
     display_name: OpenAI
     resolved_at: '2026-07-21'
     slug: openai
+    source: auto
+  openx technologies:
+    ats_type: lever
+    display_name: OpenX Technologies
+    resolved_at: '2026-10-31'
+    slug: openx
     source: auto
   oscar health:
     ats_type: greenhouse
