@@ -681,36 +681,45 @@ companies:
 - name: Intenseye
   category: discovered
   unresolved_streak: 0
-- name: Realtor.com
-  category: discovered
-  unresolved_streak: 2
-- name: Northslope
-  category: discovered
-  unresolved_streak: 2
-- name: Fairly Even
-  category: discovered
-  unresolved_streak: 2
 - name: CoreWeave
   category: discovered
   unresolved_streak: 0
-- name: Regal
-  category: discovered
-  unresolved_streak: 2
 - name: OpenX Technologies
   category: discovered
   unresolved_streak: 0
 - name: PwC
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Vannevar
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Fora
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Mariner Wealth Advisors
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: GoodRx
+  category: discovered
+  unresolved_streak: 2
+- name: Ericsson
+  category: discovered
+  unresolved_streak: 1
+- name: adMarketplace
+  category: discovered
+  unresolved_streak: 1
+- name: TIDAL
+  category: discovered
+  unresolved_streak: 1
+- name: Citadel
+  category: discovered
+  unresolved_streak: 1
+- name: Nourish
+  category: discovered
+  unresolved_streak: 1
+- name: DoorDash
+  category: discovered
+  unresolved_streak: 1
+- name: The Farmer's Dog
   category: discovered
   unresolved_streak: 1
