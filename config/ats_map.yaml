@@ -1247,6 +1247,12 @@ resolved:
     resolved_at: '2026-08-28'
     slug: treeswift
     source: auto
+  trustpilot:
+    ats_type: greenhouse
+    display_name: Trustpilot
+    resolved_at: '2026-11-07'
+    slug: trustpilot
+    source: auto
   truveta:
     ats_type: greenhouse
     display_name: Truveta
@@ -1517,3 +1523,4 @@ unresolved:
 - vca animal hospitals
 - vannevar
 - tidal
+- nbcuniversal
