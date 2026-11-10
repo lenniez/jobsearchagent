@@ -687,36 +687,18 @@ companies:
 - name: OpenX Technologies
   category: discovered
   unresolved_streak: 0
-- name: Ericsson
-  category: discovered
-  unresolved_streak: 2
-- name: adMarketplace
-  category: discovered
-  unresolved_streak: 2
-- name: TIDAL
-  category: discovered
-  unresolved_streak: 2
-- name: Citadel
-  category: discovered
-  unresolved_streak: 2
-- name: Nourish
-  category: discovered
-  unresolved_streak: 2
-- name: DoorDash
-  category: discovered
-  unresolved_streak: 2
-- name: The Farmer's Dog
-  category: discovered
-  unresolved_streak: 2
 - name: HiBob
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Trustpilot
   category: discovered
   unresolved_streak: 0
 - name: Whatnot
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: NBCUniversal
+  category: discovered
+  unresolved_streak: 2
+- name: Rokt
   category: discovered
   unresolved_streak: 1
