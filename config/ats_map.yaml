@@ -1235,6 +1235,12 @@ resolved:
     resolved_at: '2026-08-01'
     slug: topline-pro
     source: auto
+  tracksuit:
+    ats_type: ashby
+    display_name: Tracksuit
+    resolved_at: '2026-11-13'
+    slug: tracksuit
+    source: auto
   tractable:
     ats_type: ashby
     display_name: Tractable

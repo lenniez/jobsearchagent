@@ -687,18 +687,21 @@ companies:
 - name: OpenX Technologies
   category: discovered
   unresolved_streak: 0
-- name: HiBob
-  category: discovered
-  unresolved_streak: 2
 - name: Trustpilot
   category: discovered
   unresolved_streak: 0
-- name: Whatnot
-  category: discovered
-  unresolved_streak: 2
-- name: NBCUniversal
-  category: discovered
-  unresolved_streak: 2
 - name: Rokt
   category: discovered
+  unresolved_streak: 2
+- name: Realtor.com
+  category: discovered
   unresolved_streak: 1
+- name: DoorDash
+  category: discovered
+  unresolved_streak: 1
+- name: Snap Inc.
+  category: discovered
+  unresolved_streak: 1
+- name: Tracksuit
+  category: discovered
+  unresolved_streak: 0
