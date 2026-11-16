@@ -690,18 +690,18 @@ companies:
 - name: Trustpilot
   category: discovered
   unresolved_streak: 0
-- name: Rokt
-  category: discovered
-  unresolved_streak: 2
 - name: Realtor.com
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: DoorDash
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Snap Inc.
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Tracksuit
   category: discovered
   unresolved_streak: 0
+- name: NBCUniversal
+  category: discovered
+  unresolved_streak: 1
