@@ -143,6 +143,12 @@ resolved:
     resolved_at: '2026-07-25'
     slug: attio
     source: auto
+  avante:
+    ats_type: greenhouse
+    display_name: Avante
+    resolved_at: '2026-11-19'
+    slug: avante
+    source: auto
   benchling:
     ats_type: ashby
     display_name: Benchling
@@ -880,6 +886,12 @@ resolved:
     display_name: PagerDuty
     resolved_at: '2026-07-21'
     slug: pagerduty
+    source: auto
+  pallet:
+    ats_type: greenhouse
+    display_name: Pallet
+    resolved_at: '2026-11-19'
+    slug: pallet
     source: auto
   patientpoint:
     ats_type: greenhouse

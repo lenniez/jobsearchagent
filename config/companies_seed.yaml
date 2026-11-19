@@ -690,18 +690,33 @@ companies:
 - name: Trustpilot
   category: discovered
   unresolved_streak: 0
-- name: Realtor.com
-  category: discovered
-  unresolved_streak: 2
-- name: DoorDash
-  category: discovered
-  unresolved_streak: 2
-- name: Snap Inc.
-  category: discovered
-  unresolved_streak: 2
 - name: Tracksuit
   category: discovered
   unresolved_streak: 0
 - name: NBCUniversal
   category: discovered
+  unresolved_streak: 2
+- name: Hewlett Packard Enterprise
+  category: discovered
   unresolved_streak: 1
+- name: Pfizer
+  category: discovered
+  unresolved_streak: 1
+- name: Fairly Even
+  category: discovered
+  unresolved_streak: 1
+- name: Pallet
+  category: discovered
+  unresolved_streak: 0
+- name: Take-Two Interactive Software
+  category: discovered
+  unresolved_streak: 1
+- name: Tempus AI
+  category: discovered
+  unresolved_streak: 1
+- name: UL Solutions
+  category: discovered
+  unresolved_streak: 1
+- name: Avante
+  category: discovered
+  unresolved_streak: 0
