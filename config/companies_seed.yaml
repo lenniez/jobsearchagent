@@ -693,36 +693,27 @@ companies:
 - name: Tracksuit
   category: discovered
   unresolved_streak: 0
-- name: Hewlett Packard Enterprise
-  category: discovered
-  unresolved_streak: 2
-- name: Pfizer
-  category: discovered
-  unresolved_streak: 2
-- name: Fairly Even
-  category: discovered
-  unresolved_streak: 2
 - name: Pallet
   category: discovered
   unresolved_streak: 0
-- name: Take-Two Interactive Software
-  category: discovered
-  unresolved_streak: 2
-- name: Tempus AI
-  category: discovered
-  unresolved_streak: 2
-- name: UL Solutions
-  category: discovered
-  unresolved_streak: 2
 - name: Avante
   category: discovered
   unresolved_streak: 0
 - name: ZS
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Collectors
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: monday.com
+  category: discovered
+  unresolved_streak: 2
+- name: Grocery TV
+  category: discovered
+  unresolved_streak: 1
+- name: DraftKings
+  category: discovered
+  unresolved_streak: 1
+- name: Smartly
   category: discovered
   unresolved_streak: 1
