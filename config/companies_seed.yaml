@@ -699,21 +699,24 @@ companies:
 - name: Avante
   category: discovered
   unresolved_streak: 0
-- name: ZS
-  category: discovered
-  unresolved_streak: 2
-- name: Collectors
-  category: discovered
-  unresolved_streak: 2
-- name: monday.com
-  category: discovered
-  unresolved_streak: 2
 - name: Grocery TV
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: DraftKings
   category: discovered
-  unresolved_streak: 1
+  unresolved_streak: 2
 - name: Smartly
+  category: discovered
+  unresolved_streak: 2
+- name: Realtor.com
+  category: discovered
+  unresolved_streak: 1
+- name: Enverus
+  category: discovered
+  unresolved_streak: 1
+- name: Citadel
+  category: discovered
+  unresolved_streak: 1
+- name: Mariner Wealth Advisors
   category: discovered
   unresolved_streak: 1
